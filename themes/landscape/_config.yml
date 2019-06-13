@@ -28,10 +28,10 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-142085170-1
 gauges_analytics:
 favicon: /favicon.png
-twitter:
+twitter: '@creator_sk'
 google_plus:
 fb_admins:
 fb_app_id:
