@@ -31,6 +31,7 @@
     "generate": "hexo g"
   },
   "devDependencies": {
-    "barba.js": "^1.0.0"
+    "barba.js": "^1.0.0",
+    "ftp": "^0.3.10"
   }
 }
