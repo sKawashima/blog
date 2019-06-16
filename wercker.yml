@@ -1,0 +1,25 @@
+box: node
+build:
+  steps:
+    - npm-install
+    - script:
+      name: echo nodejs information
+      code: |
+        echo "node version $(node -v) running"
+        echo "npm version $(npm -v) running"
+    - script:
+      name: nuild test
+      code: |
+        echo "yarn generate"
+        yarn generate
+deploy:
+  steps:
+    - npm-install
+    - script:
+        name: build
+        code: |
+          yarn
+          yarn build
+    - script:
+        name: upload
+        code: yarn deploy

@@ -6,6 +6,8 @@
     "version": "3.7.0"
   },
   "dependencies": {
+    "dotenv": "^8.0.0",
+    "ftp-deploy": "^2.3.3",
     "hexo": "^3.2.0",
     "hexo-clean-css": "^0.0.3",
     "hexo-filter-flowchart": "^1.0.4",
@@ -28,7 +30,8 @@
   },
   "scripts": {
     "dev": "hexo s",
-    "generate": "hexo g"
+    "generate": "hexo g",
+    "deploy": "node deploy.js"
   },
   "devDependencies": {
     "barba.js": "^1.0.0"
