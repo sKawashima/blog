@@ -21,7 +21,7 @@ ftpDeploy.deploy(config)
     console.log(`finished.`)
   })
   .catch((err) => {
-    console.error(err)
+    throw err
   })
 
 ftpDeploy.on('uploaded', (data) => {
