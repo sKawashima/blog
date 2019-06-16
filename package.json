@@ -26,7 +26,9 @@
     "hexo-tag-soundcloud": "^1.0.2",
     "hexo-tag-twitter": "^1.0.1",
     "hexo-toc": "^1.1.0",
-    "hexo-uglify": "^0.0.5"
+    "hexo-uglify": "^0.0.5",
+    "textlint": "^11.2.5",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.2"
   },
   "scripts": {
     "dev": "hexo s",
