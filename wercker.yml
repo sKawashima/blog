@@ -8,7 +8,7 @@ build:
         echo "node version $(node -v) running"
         echo "npm version $(npm -v) running"
     - script:
-      name: build test
+      name: generate test
       code: |
         echo "yarn generate"
         yarn generate
@@ -16,10 +16,10 @@ deploy:
   steps:
     - npm-install
     - script:
-        name: build
+        name: generate
         code: |
           yarn
-          yarn build
+          yarn generate
     - script:
         name: upload
         code: yarn deploy
