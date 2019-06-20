@@ -22,7 +22,7 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.3.3",
     "hexo-tag-googlemaps": "^1.2.1",
-    "hexo-tag-link-preview": "^1.2.1",
+    "hexo-tag-link-preview": "^1.2.2",
     "hexo-tag-soundcloud": "^1.0.2",
     "hexo-tag-twitter": "^1.0.1",
     "hexo-toc": "^1.1.0",
