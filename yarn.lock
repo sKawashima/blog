@@ -1394,9 +1394,10 @@ hexo-tag-googlemaps@^1.2.1:
   dependencies:
     lodash "^4.16.5"
 
-hexo-tag-link-preview@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/hexo-tag-link-preview/-/hexo-tag-link-preview-1.2.1.tgz#7adc71284cbc2d11d4a2984b2efe83d08c3c2e5f"
+hexo-tag-link-preview@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/hexo-tag-link-preview/-/hexo-tag-link-preview-1.2.2.tgz#e669c65862340692d15fd80a34bb9edd7b775dff"
+  integrity sha512-lHrPB9vI2U5FIkhUpWE5zygCRh5ddGgCUBXKQMIJNUX4aIfjpwX4vKDoRxFGR4jbi8Qg6E1gWSAVb0Ddkj6Odg==
   dependencies:
     escape-html "^1.0.3"
     hexo-util "^0.6.3"
