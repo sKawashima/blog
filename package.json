@@ -35,7 +35,8 @@
     "generate": "hexo g",
     "deploy": "node deploy.js",
     "lint": "textlint -f pretty-error source/_posts/*.md",
-    "lintfix": "textlint --fix source/_posts/*.md"
+    "lintfix": "textlint --fix source/_posts/*.md",
+    "new": "hexo new"
   },
   "devDependencies": {
     "barba.js": "^1.0.0"
