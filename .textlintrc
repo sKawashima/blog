@@ -2,7 +2,7 @@
   "rules": {
     "preset-ja-technical-writing": {
       "ja-no-mixed-period": {
-        "allowPeriodMarks": ["、"]
+        "allowPeriodMarks": ["、", "！"]
       },
       "no-doubled-joshi": false,
       "no-exclamation-question-mark": false,
