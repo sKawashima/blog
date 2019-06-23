@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": false,
+      "no-doubled-joshi": false,
+      "max-comma": false,
+      "no-exclamation-question-mark": false,
+      "ja-no-successive-word:": false,
+      "ja-no-weak-phrase": false,
+      "sentence-length": false
+    }
+  }
+}

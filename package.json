@@ -33,7 +33,8 @@
   "scripts": {
     "dev": "hexo s",
     "generate": "hexo g",
-    "deploy": "node deploy.js"
+    "deploy": "node deploy.js",
+    "lint": "textlint -f pretty-error source/_posts/*.md"
   },
   "devDependencies": {
     "barba.js": "^1.0.0"
