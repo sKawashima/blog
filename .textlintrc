@@ -1,13 +1,19 @@
 {
   "rules": {
     "preset-ja-technical-writing": {
-      "ja-no-mixed-period": false,
+      "ja-no-mixed-period": {
+        "allowPeriodMarks": ["、"]
+      },
       "no-doubled-joshi": false,
-      "max-comma": false,
       "no-exclamation-question-mark": false,
-      "ja-no-successive-word:": false,
       "ja-no-weak-phrase": false,
-      "sentence-length": false
+      "sentence-length": false,
+      "max-ten": {
+        "max": 4
+      },
+      "max-kanji-continuous-len": {
+        "max": 8
+      }
     }
   }
 }
