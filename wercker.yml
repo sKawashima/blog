@@ -12,6 +12,18 @@ build:
       code: |
         echo "yarn generate"
         yarn generate
+lint:
+  steps:
+    - npm-install
+    - script:
+      name: textlint --fix
+      code: |
+        yarn
+        yarn lintfix
+    - script:
+      name: textlint
+      code: |
+        yarn lint
 deploy:
   steps:
     - npm-install
