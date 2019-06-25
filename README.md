@@ -13,6 +13,9 @@
 * `master`ブランチへの直コミットは禁止
 * `master`ブランチへのマージは`Merge pull request`で行う
 * `master`ブランチ以外のブランチへのマージは`Squash and merge`で行う
+* マージ済みブランチは`Delete`する
+* `dependabot`によるプルリクエストは`Squash and merge`で処理する
+  * プルリクエスト番号を残すため
 
 ## new
 
