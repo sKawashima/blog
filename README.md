@@ -2,7 +2,7 @@
 
 |master|working|
 |:-:|:-:|
-|[![wercker status](https://app.wercker.com/status/d28d247b21e1284dd5741503e17d8f40/s/master "wercker status")](https://app.wercker.com/project/byKey/d28d247b21e1284dd5741503e17d8f40)|[![wercker status](https://app.wercker.com/status/d28d247b21e1284dd5741503e17d8f40/s/ "wercker status")](https://app.wercker.com/project/byKey/d28d247b21e1284dd5741503e17d8f40)|
+|[[![wercker status](https://app.wercker.com/status/bdfe562be9e172b083555c9875ce44cd/m/master "wercker status")](https://app.wercker.com/project/byKey/bdfe562be9e172b083555c9875ce44cd)|[![wercker status](https://app.wercker.com/status/bdfe562be9e172b083555c9875ce44cd/m/ "wercker status")](https://app.wercker.com/project/byKey/bdfe562be9e172b083555c9875ce44cd)|
 
 それなりに真面目に書く方のブログ
 
