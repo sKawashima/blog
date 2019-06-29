@@ -11,11 +11,11 @@
 
 ## GitHub運用方針
 
-`master`ブランチへの情報の変化は最低限残すが、Networkが複雑になりすぎないようにするために定めた。
+Networkが見えて幸せなことが殆どないため、2019/6/29に`Squash and merge`に変更
 
 * `master`ブランチへの直コミットは禁止
-* `master`ブランチへのマージは`Merge pull request`で行う
-* `master`ブランチ以外のブランチへのマージは`Squash and merge`で行う
+* `master`ブランチへのマージは`Squash and merge`で行う
+* `master`ブランチ以外のブランチへのマージは`Merge pull request`で行う
 * マージ済みブランチは`Delete`する
 * `dependabot`によるプルリクエストは`Squash and merge`で処理する
   * プルリクエスト番号を残すため
