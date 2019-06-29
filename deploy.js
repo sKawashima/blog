@@ -14,7 +14,7 @@ const config = {
   forcePasv: true
 }
 
-console.log(`user: ${config.user}, password: ${config.password}, host: ${config.host}`);
+// console.log(`user: ${config.user}, password: ${config.password}, host: ${config.host}`);
 
 ftpDeploy.deploy(config)
   .then((res) => {
