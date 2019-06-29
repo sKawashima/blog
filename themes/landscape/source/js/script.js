@@ -42,6 +42,7 @@
       encodedUrl = encodeURIComponent(url),
       id = 'article-share-box-' + $this.attr('data-id'),
       offset = $this.offset();
+    url = url.replace(/skawashima.com/g, 'skawashima.com/blog')
     // console.log(url)
     if ($('#' + id).length){
       var box = $('#' + id);
