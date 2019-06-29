@@ -1,6 +1,8 @@
 # skawashima.com/blog
 
-|master|working|
+![last deploy](https://img.shields.io/github/last-commit/sKawashima/blog/master.svg?label=last%20deploy&style=flat-square)
+![twitter](https://img.shields.io/twitter/follow/sk_creator.svg?style=social)
+|deploy|build/textlint|
 |:-:|:-:|
 |[[![wercker status](https://app.wercker.com/status/bdfe562be9e172b083555c9875ce44cd/m/master "wercker status")](https://app.wercker.com/project/byKey/bdfe562be9e172b083555c9875ce44cd)|[![wercker status](https://app.wercker.com/status/bdfe562be9e172b083555c9875ce44cd/m/ "wercker status")](https://app.wercker.com/project/byKey/bdfe562be9e172b083555c9875ce44cd)|
 
