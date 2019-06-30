@@ -37,7 +37,7 @@ lint:
       channel: blog
       username: wercker-lint
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHXJ9/__________-__________________74606294__.png
-      custom_message: lintテストが完了です。 Deploying $WERCKER_GIT_BRANCH to $WERCKER_DEPLOYTARGET_NAME ($WERCKER_BUILD_URL)
+      custom_message: <$WERCKER_BUILD_URL|lint>テストが完了です。
 deploy:
   steps:
     - npm-install
