@@ -40,6 +40,12 @@ lint:
       custom_message: lintテストが完了です。 $WERCKER_BUILD_URL
 deploy:
   steps:
+    - shoya/slack-notifier@1.5.0:
+      url: $SLACK_WEBHOOK_URL_DEPLOY
+      channel: blog
+      username: wercker-deploy
+      icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL2GRHYES/__________-______49406621__.jpg
+      custom_message: $WERCKER_GIT_BRANCH のデプロイを開始するよ。
     - npm-install
     - script:
       name: generate
