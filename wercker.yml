@@ -13,11 +13,11 @@ build:
         echo "yarn generate"
         yarn generate
   after-steps:
-    - kingsquare/kelevra-slack-notifier:
-        url: $SLACK_WEBHOOK_URL
-        channel: blog
-        username: wercker-build
-        icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHKCM/missile228_-__________________72148069__.jpg
+    - shoya/slack-notifier@1.5.0:
+      url: $SLACK_WEBHOOK_URL
+      channel: blog
+      username: wercker-build
+      icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHKCM/missile228_-__________________72148069__.jpg
 lint:
   steps:
     - npm-install
@@ -31,25 +31,25 @@ lint:
       code: |
         yarn lint
   after-steps:
-    - kingsquare/kelevra-slack-notifier:
-        url: $SLACK_WEBHOOK_URL
-        channel: blog
-        username: wercker-lint
-        icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHXJ9/__________-__________________74606294__.png
+    - shoya/slack-notifier@1.5.0:
+      url: $SLACK_WEBHOOK_URL
+      channel: blog
+      username: wercker-lint
+      icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHXJ9/__________-__________________74606294__.png
 deploy:
   steps:
     - npm-install
     - script:
-        name: generate
-        code: |
-          yarn
-          yarn generate
+      name: generate
+      code: |
+        yarn
+        yarn generate
     - script:
-        name: upload
-        code: yarn deploy
+      name: upload
+      code: yarn deploy
   after-steps:
-    - kingsquare/kelevra-slack-notifier:
-        url: $SLACK_WEBHOOK_URL
-        channel: blog
-        username: wercker-deploy
-        icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL2GRHYES/__________-______49406621__.jpg
+    - shoya/slack-notifier@1.5.0:
+      url: $SLACK_WEBHOOK_URL
+      channel: blog
+      username: wercker-deploy
+      icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL2GRHYES/__________-______49406621__.jpg
