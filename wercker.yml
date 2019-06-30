@@ -37,7 +37,7 @@ lint:
       channel: blog
       username: wercker-lint
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHXJ9/__________-__________________74606294__.png
-      custom_message: あ、$WERCKER_STARTED_BY、lintテストが完了です。 $WERCKER_RUN_URL
+      custom_message: $WERCKER_STARTED_BY、lintテストが完了です。 $WERCKER_RUN_URL
 deploy:
   steps:
     - shoya/slack-notifier@1.5.0:
