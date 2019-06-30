@@ -18,7 +18,7 @@ build:
       channel: blog
       username: wercker-build
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHKCM/missile228_-__________________72148069__.jpg
-      custom_message: $WERCKER_GIT_COMMIT のbuildテストが終わったわよ $WERCKER_BUILD_URL
+      custom_message: buildテストが終わったわよ $WERCKER_RUN_URL
 lint:
   steps:
     - npm-install
@@ -37,7 +37,7 @@ lint:
       channel: blog
       username: wercker-lint
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHXJ9/__________-__________________74606294__.png
-      custom_message: $WERCKER_STARTED_BY 、lintテストが完了です。 $WERCKER_RUN_URL
+      custom_message: $WERCKER_STARTED_BY、lintテストが完了です。 $WERCKER_RUN_URL
 deploy:
   steps:
     - shoya/slack-notifier@1.5.0:
@@ -45,7 +45,7 @@ deploy:
       channel: blog
       username: wercker-deploy
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL2GRHYES/__________-______49406621__.jpg
-      custom_message: $WERCKER_GIT_BRANCH のデプロイを開始するよ。
+      custom_message: $WERCKER_GIT_COMMIT のデプロイを開始するよ。
     - npm-install
     - script:
       name: generate
@@ -61,4 +61,4 @@ deploy:
       channel: blog
       username: wercker-deploy
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL2GRHYES/__________-______49406621__.jpg
-      custom_message: $WERCKER_GIT_BRANCH をデプロイしたよ。お疲れ。
+      custom_message: デプロイしたよ。お疲れ、$WERCKER_STARTED_BY。
