@@ -13,10 +13,8 @@ build:
         echo "yarn generate"
         yarn generate
   after-steps:
-    - install-packages:
-        packages: ruby
-    - sherzberg/slack-notify:
-        webhook_url: $SLACK_WEBHOOK_URL
+    - kingsquare/kelevra-slack-notifier:
+        url: $SLACK_WEBHOOK_URL
         channel: blog
         username: wercker-build
         icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHKCM/missile228_-__________________72148069__.jpg
@@ -33,10 +31,8 @@ lint:
       code: |
         yarn lint
   after-steps:
-    - install-packages:
-        packages: ruby
-    - sherzberg/slack-notify:
-        webhook_url: $SLACK_WEBHOOK_URL
+    - kingsquare/kelevra-slack-notifier:
+        url: $SLACK_WEBHOOK_URL
         channel: blog
         username: wercker-lint
         icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHXJ9/__________-__________________74606294__.png
@@ -52,10 +48,8 @@ deploy:
         name: upload
         code: yarn deploy
   after-steps:
-    - install-packages:
-        packages: ruby
-    - sherzberg/slack-notify:
-        webhook_url: $SLACK_WEBHOOK_URL
+    - kingsquare/kelevra-slack-notifier:
+        url: $SLACK_WEBHOOK_URL
         channel: blog
         username: wercker-deploy
         icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL2GRHYES/__________-______49406621__.jpg
