@@ -14,10 +14,11 @@ build:
         yarn generate
   after-steps:
     - shoya/slack-notifier@1.5.0:
-      url: $SLACK_WEBHOOK_URL
+      url: $SLACK_WEBHOOK_URL_BUILD
       channel: blog
       username: wercker-build
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHKCM/missile228_-__________________72148069__.jpg
+      custom_message: $WERCKER_DEPLOYTARGET_NAME のbuildテストが通ったわ ($WERCKER_DEPLOY_URL)
 lint:
   steps:
     - npm-install
@@ -32,10 +33,11 @@ lint:
         yarn lint
   after-steps:
     - shoya/slack-notifier@1.5.0:
-      url: $SLACK_WEBHOOK_URL
+      url: $SLACK_WEBHOOK_URL_LINT
       channel: blog
       username: wercker-lint
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL0CTHXJ9/__________-__________________74606294__.png
+      custom_message: $WERCKER_DEPLOYTARGET_NAME のlintテストが完了です。 ($WERCKER_DEPLOY_URL)
 deploy:
   steps:
     - npm-install
@@ -49,7 +51,8 @@ deploy:
       code: yarn deploy
   after-steps:
     - shoya/slack-notifier@1.5.0:
-      url: $SLACK_WEBHOOK_URL
+      url: $SLACK_WEBHOOK_URL_DEPLOY
       channel: blog
       username: wercker-deploy
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL2GRHYES/__________-______49406621__.jpg
+      custom_message: $WERCKER_DEPLOYTARGET_NAME をデプロイしたよ。お疲れ。 ($WERCKER_DEPLOY_URL)
