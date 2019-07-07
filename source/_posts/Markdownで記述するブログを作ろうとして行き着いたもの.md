@@ -12,14 +12,14 @@ category: Web Frontend
 
 ## このブログについて
 
-### Hexo
+### Hexoでできてます
 
 [公式Webサイト](https://hexo.io/)
 
-- `Node.js`製のブログジェネレータ。
+- `Node.js` 製のブログジェネレータ。
 - コマンドを叩くだけで必要なファイルを生成してくれる。
-- テンプレートエンジンは`ejs`。
-- `Grunt`で動いている。ちょっと古いだけにこれだけは心配。
+- テンプレートエンジンは `ejs` 。
+- `Grunt` で動いている。ちょっと古いだけにこれだけは心配。
 
 <!-- more -->
 
@@ -27,28 +27,28 @@ category: Web Frontend
 
 したこと、といっても大したことはしていない。
 
-- `themes/landscape/layout/_partial`にある`header.ejs`と`footer.ejs`の編集
-- `themes/landscape/source/css/style.styl`の編集
-- `_config.yml`の編集
+- `themes/landscape/layout/_partial` にある `header.ejs` と `footer.ejs` の編集
+- `themes/landscape/source/css/style.styl` の編集
+- `_config.yml` の編集
 
-つまり、ヘッダーとフッター以外は初期のまま、`_config.yml`に関しては項目を埋めただけ。ほかは多分殆どいじっていない。ちなみに、`ejs`と`stylus`を編集したのは初めてでした。
+つまり、ヘッダーとフッター以外は初期のまま、 `_config.yml` に関しては項目を埋めただけ。ほかは多分殆どいじっていない。ちなみに、 `ejs` と `stylus` を編集したのは初めてでした。
 Hexo便利だ。
 
 ## Hexoに至るまでに触れた技術
 
 ### processmd
 
-`Markdown`から`HTML`に変換し、`Markdown`のファイル構成からインデックスを作ることができる。が、**僕の環境ではうまく動かなかった**。
-そもそもなんだが、[僕のポートフォリオサイト](http://skawashima.com)は`Nuxt`で作っている。いや、１ページしかないWebページで`Nuxt`を使う意味はあんまりないんだが、その話は今度するとしよう。で、ブログが欲しいとちょうど思っていた頃に、あるQiita記事を知った。
+`Markdown` から `HTML` に変換し、 `Markdown` のファイル構成からインデックスを作ることができる。が、**僕の環境ではうまく動かなかった**。
+そもそもなんだが、[僕のポートフォリオサイト](http://skawashima.com)は `Nuxt` で作っている。いや、１ページしかないWebページで `Nuxt` を使う意味はあんまりないんだが、その話は今度するとしよう。で、ブログが欲しいとちょうど思っていた頃に、あるQiita記事を知った。
 
 - [Nuxt.js で Markdown ベースのブログを構築する（Markdown 編） - jmblog.jp](https://jmblog.jp/posts/2018-01-17/build-a-blog-with-nuxtjs-and-markdown-1/)
 
 ド直球やんけ。というわけで、使おうとして、使えなくて、困っていた。
-それに似たライブラリを探してみたりして、`blogdown`とか`gitbook`とか、試しては挫折した。
+それに似たライブラリを探してみたりして、 `blogdown` とか `gitbook` とか、試しては挫折した。
 
 ### Ruby on Rails
 
-王道of王道…つって、まだ何かを作ったことがあるわけじゃない。というか、現在勉強中。ただ、悲しいことに[skawashima.com](http://skawashima.com)はサーバーサイドプログラムが動くサーバーにリンクしていない。それから、もうすこし`Node.js`製の技術に浸かりたい。のでスルー。
+王道of王道…つって、まだ何かを作ったことがあるわけじゃない。というか、現在勉強中。ただ、悲しいことに[skawashima.com](http://skawashima.com)はサーバーサイドプログラムが動くサーバーにリンクしていない。それから、もうすこし `Node.js` 製の技術に浸かりたい。のでスルー。
 
 ### WordPress
 
@@ -67,7 +67,7 @@ hexo server
 ```
 
 てコマンドがあって、 **「ああ、サーバー建てて使うタイプのやつかー」** って勘違いしちゃったんだもん。ド畜生。
-しかし、物は試しと使ってみると`hexo generate`というコマンドの存在に気づいて、採用決定したって感じ。
+しかし、物は試しと使ってみると `hexo generate` というコマンドの存在に気づいて、採用決定したって感じ。
 
 ## こんなかんじ
 
