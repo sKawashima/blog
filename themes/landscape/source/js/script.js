@@ -32,14 +32,25 @@
   });
 
   // Share
-  if (window.navigator.userAgent.index0f('iPhone') || ua.indexOf('Android') > 0 || ua.indexOf('iPad') > 0) {
-    var $this = $(this),
+  console.log(window.navigator.userAgent)
+  console.log(window.navigator.userAgent.indexOf('iPhone'))
+  console.log(window.navigator.userAgent.indexOf('Android'))
+  console.log(window.navigator.userAgent.indexOf('iPad'))
+  console.log(window.navigator.userAgent.indexOf('iPhone') > 0 || window.navigator.userAgent.indexOf('Android') > 0 || window.navigator.userAgent.indexOf('iPad') > 0)
+  if (window.navigator.userAgent.indexOf('iPhone') > 0 || window.navigator.userAgent.indexOf('Android') > 0 || window.navigator.userAgent.indexOf('iPad') > 0) {
+    console.log('sp');
+    $('body').on('click', function () {}).on('click', '.article-share-link', function (e) {
+      e.stopPropagation();
+      var $this = $(this),
       url = $this.attr('data-url').replace(/skawashima.com/g, 'skawashima.com/blog'),
       encodedUrl = encodeURIComponent(url);
       navigator.share({
         url: encodedUrl
       });
+    });
   } else {
+    console.log('else');
+    
     $('body').on('click', function () {
       $('.article-share-box.on').removeClass('on');
     }).on('click', '.article-share-link', function (e) {
