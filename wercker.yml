@@ -45,7 +45,7 @@ deploy:
       channel: blog
       username: wercker-deploy
       icon_url: https://files.slack.com/files-pri/T0J8H1V5X-FL2GRHYES/__________-______49406621__.jpg
-      custom_message: $WERCKER_GIT_COMMIT のデプロイを開始するよ。
+      custom_message: $WERCKER_GIT_COMMIT のデプロイを開始するよ。 $WERCKER_RUN_URL
     - npm-install
     - script:
       name: generate
