@@ -1474,7 +1474,7 @@ extsprintf@^1.2.0:
 
 fast-deep-equal@^1.0.0:
   version "1.1.0"
-  resolved "http://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz#c053477817c86b51daa853c81e059b733d023614"
+  resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz#c053477817c86b51daa853c81e059b733d023614"
 
 fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
@@ -1988,10 +1988,10 @@ hexo-tag-googlemaps@^1.2.1:
   dependencies:
     lodash "^4.16.5"
 
-hexo-tag-link-preview@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/hexo-tag-link-preview/-/hexo-tag-link-preview-1.2.2.tgz#e669c65862340692d15fd80a34bb9edd7b775dff"
-  integrity sha512-lHrPB9vI2U5FIkhUpWE5zygCRh5ddGgCUBXKQMIJNUX4aIfjpwX4vKDoRxFGR4jbi8Qg6E1gWSAVb0Ddkj6Odg==
+hexo-tag-link-preview@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/hexo-tag-link-preview/-/hexo-tag-link-preview-1.2.3.tgz#a81ae444f9c84493bcb0c68cd1452cbc48081d09"
+  integrity sha512-BGq6nX+y1rnw8KXCG/hIwTGgGMdTeX32CfS45OF/0aGuP/lg0q00PRMRlcIq/4/N1BB7iOGob/XcWtqqZLim+Q==
   dependencies:
     escape-html "^1.0.3"
     hexo-util "^0.6.3"
