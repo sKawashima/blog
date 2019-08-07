@@ -38,9 +38,11 @@
     "deploy": "node deploy.js",
     "lint": "textlint -f pretty-error source/_posts/*.md",
     "lintfix": "textlint --fix source/_posts/*.md",
-    "new": "hexo new"
+    "new": "hexo new",
+    "blc": "blc http://localhost:4000/"
   },
   "devDependencies": {
-    "barba.js": "^1.0.0"
+    "barba.js": "^1.0.0",
+    "broken-link-checker": "^0.7.8"
   }
 }
