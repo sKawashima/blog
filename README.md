@@ -19,6 +19,11 @@ Networkが見えて幸せなことが殆どないため、2019/6/29に`Squash an
 * `dependabot`によるプルリクエストは`Squash and merge`で処理する
   * プルリクエスト番号を残すため
 
+## 記事執筆方針
+
+* サイト外リンク：Markdown
+* サイト内リンク： `{% post_link file_name [text] %}`
+
 ## new
 
 ```shell
