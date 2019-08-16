@@ -14,11 +14,15 @@
 Networkが見えて幸せなことが殆どないため、2019/6/29に`Squash and merge`に変更
 
 * `master`ブランチへの直コミットは禁止
-* `master`ブランチへのマージは`Squash and merge`で行う
-* `master`ブランチ以外のブランチへのマージは`Merge pull request`で行う
+* マージは`Squash and merge`で行う
 * マージ済みブランチは`Delete`する
 * `dependabot`によるプルリクエストは`Squash and merge`で処理する
   * プルリクエスト番号を残すため
+
+## 記事執筆方針
+
+* サイト外リンク：Markdown
+* サイト内リンク： `{% post_link file_name [text] %}`
 
 ## new
 
