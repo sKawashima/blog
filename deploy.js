@@ -10,7 +10,7 @@ const config = {
   remoteRoot: '/skawashima.com/blog/',
   include: ['**/*.*'],
   exclude: ['.DS_Store'],
-  // deleteRemote: true,
+  deleteRemote: true,
   forcePasv: true
 }
 
