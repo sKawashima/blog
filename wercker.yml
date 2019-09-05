@@ -23,10 +23,9 @@ lint:
   steps:
     - npm-install
     - script:
-      name: textlint --fix
+      name: yarn
       code: |
         yarn
-        yarn lintfix
     - script:
       name: textlint
       code: |
