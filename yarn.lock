@@ -611,7 +611,7 @@ binary-extensions@^1.0.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.11.0.tgz#46aa1751fb6a2f93ee5e689bb1087d4b14c6c205"
 
-bluebird@2.x, bluebird@^2.3.5, bluebird@^2.6.2, bluebird@^2.8.1, bluebird@^2.8.2, bluebird@^2.9.4:
+bluebird@2.x, bluebird@^2.3.5, bluebird@^2.6.2, bluebird@^2.8.1, bluebird@^2.8.2:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
 
@@ -916,20 +916,14 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-clean-css@^3.0.8, clean-css@^3.1.9:
+clean-css@^3.1.9:
   version "3.4.28"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-3.4.28.tgz#bf1945e82fc808f55695e6ddeaec01400efd03ff"
   dependencies:
     commander "2.8.x"
     source-map "0.4.x"
 
-clean-css@^4.1.11:
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.1.11.tgz#2ecdf145aba38f54740f26cefd0ff3e03e125d6a"
-  dependencies:
-    source-map "0.5.x"
-
-clean-css@^4.2.1:
+clean-css@^4.1.11, clean-css@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.1.tgz#2d411ef76b8569b6d0c84068dabe85b0aa5e5c17"
   integrity sha512-4ZxI6dy4lrY6FHzfiy1aEOXgu4LIsW2MhwG0VBKdcoGoH/XLFgaHSdLTGr4O8Be6A8r3MOphEiI8Gc1n0ecf3g==
@@ -1990,14 +1984,14 @@ hexo-bunyan@^1.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
-hexo-clean-css@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/hexo-clean-css/-/hexo-clean-css-0.0.3.tgz#84663a49c076f29709c9713363ff24b492bf0938"
+hexo-clean-css@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-clean-css/-/hexo-clean-css-1.0.0.tgz#11505ba98b4010bd12afe5015a7e6bfdb39f8048"
+  integrity sha512-nNANdYD5hDrwZAu2DJlOkrNywhPAjIgf4xuo2YuaSwfwLKKMlyB0pYelog1aTIKQMhJLLWCM4gxfW30lKmHXTA==
   dependencies:
-    bluebird "^2.9.4"
-    clean-css "^3.0.8"
-    minimatch "^3.0.1"
-    object-assign "^2.0.0"
+    bluebird "^3.5.5"
+    clean-css "^4.2.1"
+    micromatch "^4.0.2"
 
 hexo-cli@^2.0.0:
   version "2.0.0"
@@ -4509,7 +4503,7 @@ source-map@0.4.x:
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@0.5.x, source-map@^0.5.6, source-map@~0.5.1:
+source-map@^0.5.6, source-map@~0.5.1:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
