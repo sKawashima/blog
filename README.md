@@ -1,7 +1,7 @@
 # skawashima.com/blog
 
 ![last deploy](https://img.shields.io/github/last-commit/sKawashima/blog/master.svg?label=last%20deploy&style=flat-square)
-![twitter](https://img.shields.io/twitter/follow/_sKawashima.svg?style=social)
+[![twitter](https://img.shields.io/twitter/follow/_sKawashima.svg?style=social)](https://twitter.com/_sKawashima)
 
 |deploy|build/textlint|
 |:-:|:-:|
