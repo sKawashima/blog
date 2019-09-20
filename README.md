@@ -11,10 +11,11 @@
 
 ## GitHub運用方針
 
-Networkが見えて幸せなことが殆どないため、2019/6/29に`Squash and merge`に変更
+~~Networkが見えて幸せなことが殆どないため、2019/6/29に`Squash and merge`に変更~~
+コミットメッセージを残したくなったので`Create a merge commits`に変更
 
 * `master`ブランチへの直コミットは禁止
-* マージは`Squash and merge`で行う
+* マージは`Create a merge commits`で行う
 * マージ済みブランチは`Delete`する
 * `dependabot`によるプルリクエストは`Squash and merge`で処理する
   * プルリクエスト番号を残すため
