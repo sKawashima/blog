@@ -22,6 +22,7 @@ Networkが見えて幸せなことが殆どないため、2019/6/29に`Squash an
 ## 記事執筆方針
 
 * サイト外リンク：Markdown
+  * プレビュー付きリンク： `{% linkPreview http://c16e.com/1511101558/ %}`
 * サイト内リンク： `{% post_link file_name [text] %}`
 
 ## new
