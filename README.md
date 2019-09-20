@@ -12,6 +12,7 @@
 ## GitHub運用方針
 
 ~~Networkが見えて幸せなことが殆どないため、2019/6/29に`Squash and merge`に変更~~
+
 コミットメッセージを残したくなったので`Create a merge commits`に変更
 
 * `master`ブランチへの直コミットは禁止
