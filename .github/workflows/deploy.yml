@@ -1,4 +1,4 @@
-name: Node CI
+name: Deploy
 
 on:
   push:
@@ -6,6 +6,62 @@ on:
     - master
 
 jobs:
+  generate-test:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: npm install, build, and test
+      run: |
+        npm i
+        npm run generate
+      env:
+        CI: true
+    - name: Slack Comment
+      uses: Ilshidur/action-slack@master
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_OVERRIDE_MESSAGE: 'Deploy前の Generate Test が終わったよ。' # Optional.
+      with:
+        args: 'Generate test.'
+
+  lint-test:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: npm install, build, and test
+      run: |
+        npm i
+        npm run lint
+      env:
+        CI: true
+    - name: Slack Comment
+      uses: Ilshidur/action-slack@master
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_OVERRIDE_MESSAGE: 'Deploy前の Lint Test が終わったよ' # Optional.
+      with:
+        args: 'Lint test.'
+
   deploy:
     needs: [generate-test, lint-test]
 
