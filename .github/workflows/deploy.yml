@@ -33,6 +33,16 @@ jobs:
         SLACK_OVERRIDE_MESSAGE: 'Deploy前の Generate Test が終わったよ。' # Optional.
       with:
         args: 'Generate test.'
+    - name: Slack Notification
+      uses: homoluctus/slatify@master
+      if: failure()
+      with:
+        type: ${{ job.status }}
+        job_name: '*Generate Test*'
+        mention: 'here'
+        mention_if: 'failure'
+        channel: '#blog'
+        url: ${{ secrets.SLACK_WEBHOOK }}
 
   lint-test:
 
@@ -58,9 +68,19 @@ jobs:
       uses: Ilshidur/action-slack@master
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: 'Deploy前の Lint Test が終わったよ' # Optional.
+        SLACK_OVERRIDE_MESSAGE: 'Deploy前の Lint Test が終わったよ。' # Optional.
       with:
         args: 'Lint test.'
+    - name: Slack Notification
+      uses: homoluctus/slatify@master
+      if: failure()
+      with:
+        type: ${{ job.status }}
+        job_name: '*Lint Test*'
+        mention: 'here'
+        mention_if: 'failure'
+        channel: '#blog'
+        url: ${{ secrets.SLACK_WEBHOOK }}
 
   deploy:
     needs: [generate-test, lint-test]

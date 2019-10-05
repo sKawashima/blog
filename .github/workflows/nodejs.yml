@@ -68,7 +68,7 @@ jobs:
       uses: Ilshidur/action-slack@master
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: 'Lint Test が終わったよ' # Optional.
+        SLACK_OVERRIDE_MESSAGE: 'Lint Test が終わったよ。' # Optional.
       with:
         args: 'Lint test.'
     - name: Slack Notification
