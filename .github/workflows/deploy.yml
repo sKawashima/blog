@@ -1,0 +1,47 @@
+name: Node CI
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  deploy:
+    needs: [generate-test, lint-test]
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Slack Comment
+      uses: Ilshidur/action-slack@master
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_OVERRIDE_MESSAGE: '{{GITHUB_SHA}} のデプロイを開始するよ。' # Optional.
+      with:
+        args: 'deploy'
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Build
+      run: |
+        npm i
+        npm run build
+      env:
+        CI: true
+    - name: deploy
+      run: |
+        npm i
+        npm run deploy
+    - name: Slack Comment
+      uses: Ilshidur/action-slack@master
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_OVERRIDE_MESSAGE: 'デプロイしたよ。お疲れ、skawashima。' # Optional.
+      with:
+        args: 'deploy'
