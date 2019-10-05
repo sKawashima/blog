@@ -3,7 +3,7 @@ name: Node CI
 on: [push]
 
 jobs:
-  Generate Test:
+  generate-test:
 
     runs-on: ubuntu-latest
 
@@ -41,7 +41,7 @@ jobs:
         channel: '#cocktail-menu'
         url: ${{ secrets.SLACK_WEBHOOK }}
 
-  Lint Test:
+  lint-test:
 
     runs-on: ubuntu-latest
 
