@@ -41,7 +41,7 @@ jobs:
         job_name: '*Generate Test*'
         mention: 'here'
         mention_if: 'failure'
-        channel: '#cocktail-menu'
+        channel: '#blog'
         url: ${{ secrets.SLACK_WEBHOOK }}
 
   lint-test:
@@ -79,5 +79,5 @@ jobs:
         job_name: '*Lint Test*'
         mention: 'here'
         mention_if: 'failure'
-        channel: '#cocktail-menu'
+        channel: '#blog'
         url: ${{ secrets.SLACK_WEBHOOK }}

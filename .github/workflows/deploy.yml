@@ -72,7 +72,6 @@ jobs:
         node-version: [12.x]
 
     steps:
-    - uses: actions/checkout@v1
     - name: Slack Comment
       uses: Ilshidur/action-slack@master
       env:
@@ -80,14 +79,15 @@ jobs:
         SLACK_OVERRIDE_MESSAGE: '{{GITHUB_SHA}} のデプロイを開始するよ。' # Optional.
       with:
         args: 'deploy'
+    - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Build
+    - name: generate
       run: |
         npm i
-        npm run build
+        npm run generate
       env:
         CI: true
     - name: deploy
@@ -101,3 +101,13 @@ jobs:
         SLACK_OVERRIDE_MESSAGE: 'デプロイしたよ。お疲れ、skawashima。' # Optional.
       with:
         args: 'deploy'
+    - name: Slack Notification
+      uses: homoluctus/slatify@master
+      if: always()
+      with:
+        type: ${{ job.status }}
+        job_name: '*Deploy*'
+        mention: 'here'
+        mention_if: 'failure'
+        channel: '#blog'
+        url: ${{ secrets.SLACK_WEBHOOK }}
