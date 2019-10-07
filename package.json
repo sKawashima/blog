@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "dotenv": "^8.1.0",
-    "ftp-deploy": "^2.3.3",
+    "ftp-deploy": "^2.3.5",
     "hexo": "^3.9.0",
     "hexo-clean-css": "^1.0.0",
     "hexo-filter-flowchart": "^1.0.4",
