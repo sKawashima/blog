@@ -1,6 +1,8 @@
 # skawashima.com/blog
 
 ![last deploy](https://img.shields.io/github/last-commit/sKawashima/blog/master.svg?label=last%20deploy&style=flat-square)
+![lgtm alart](https://img.shields.io/lgtm/alerts/github/sKawashima/blog?style=flat-square)
+[![Node CI Status](https://github.com/sKawashima/blog/workflows/Node%20CI/badge.svg)](https://github.com/sKawashima/blog/actions?workflow=Node+CI)
 [![twitter](https://img.shields.io/twitter/follow/_sKawashima.svg?style=social)](https://twitter.com/_sKawashima)
 
 それなりに真面目に書く方のブログ
