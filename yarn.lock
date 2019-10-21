@@ -2349,13 +2349,13 @@ hexo-renderer-ejs@^1.0.0:
   dependencies:
     ejs "^2.6.1"
 
-hexo-renderer-jade@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-jade/-/hexo-renderer-jade-0.4.1.tgz#918ef3ac962a4a30121b972aa60801560682bf6a"
-  integrity sha1-kY7zrJYqSjASG5cqpggBVgaCv2o=
+hexo-renderer-jade@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-jade/-/hexo-renderer-jade-0.5.0.tgz#ca5061d5e5eb32a0beaf8e543136a7875432e7ff"
+  integrity sha512-C1EmmsmGTbE5mTf4863IQyXO7CzO4jBfUsY+msiSH0sFqeq5XUVN0YGgrLZUfctW/6in5AppsbPqiJvdmMwtVg==
   dependencies:
     jade "^1.11.0"
-    pug "^2.0.0-rc.1"
+    pug "^2.0.1"
 
 hexo-renderer-marked@^1.0.1:
   version "1.0.1"
@@ -4348,7 +4348,7 @@ pug-walk@^1.1.8:
   resolved "https://registry.yarnpkg.com/pug-walk/-/pug-walk-1.1.8.tgz#b408f67f27912f8c21da2f45b7230c4bd2a5ea7a"
   integrity sha512-GMu3M5nUL3fju4/egXwZO0XLi6fW/K3T3VTgFQ14GxNi8btlxgT5qZL//JwZFm/2Fa64J/PNS8AZeys3wiMkVA==
 
-pug@^2.0.0-rc.1:
+pug@^2.0.1:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pug/-/pug-2.0.4.tgz#ee7682ec0a60494b38d48a88f05f3b0ac931377d"
   integrity sha512-XhoaDlvi6NIzL49nu094R2NA6P37ijtgMDuWE+ofekDChvfKnzFal60bhSdiy8y2PBO6fmz3oMEIcfpBVRUdvw==
