@@ -100,6 +100,11 @@ jobs:
       run: |
         npm i
         npm run deploy
+      env:
+        CI: true
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        FTP_HOST: ${{ secrets.FTP_HOST }}
     - name: Slack Comment
       uses: Ilshidur/action-slack@master
       env:
