@@ -15,6 +15,13 @@ jobs:
         node-version: [12.x]
 
     steps:
+    - name: Slack Comment
+      uses: Ilshidur/action-slack@master
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_OVERRIDE_MESSAGE: 'Masterへのマージを確認、Deployを開始するよ。'
+      with:
+        args: 'Lint test.'
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
@@ -26,13 +33,6 @@ jobs:
         npm run generate
       env:
         CI: true
-    - name: Slack Comment
-      uses: Ilshidur/action-slack@master
-      env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: 'Deploy前の Generate Test が終わったよ。' # Optional.
-      with:
-        args: 'Generate test.'
     - name: Slack Notification
       uses: homoluctus/slatify@master
       if: failure()
@@ -64,13 +64,6 @@ jobs:
         npm run lint
       env:
         CI: true
-    - name: Slack Comment
-      uses: Ilshidur/action-slack@master
-      env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: 'Deploy前の Lint Test が終わったよ。' # Optional.
-      with:
-        args: 'Lint test.'
     - name: Slack Notification
       uses: homoluctus/slatify@master
       if: failure()
@@ -96,7 +89,7 @@ jobs:
       uses: Ilshidur/action-slack@master
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: '{{GITHUB_SHA}} のデプロイを開始するよ。' # Optional.
+        SLACK_OVERRIDE_MESSAGE: '{{GITHUB_SHA}} のデプロイを開始するよ。'
       with:
         args: 'deploy'
     - uses: actions/checkout@v1
@@ -118,7 +111,7 @@ jobs:
       uses: Ilshidur/action-slack@master
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: 'デプロイしたよ。お疲れ、skawashima。' # Optional.
+        SLACK_OVERRIDE_MESSAGE: 'デプロイしたよ。お疲れ、skawashima。'
       with:
         args: 'deploy'
     - name: Slack Notification

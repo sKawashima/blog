@@ -15,6 +15,10 @@ jobs:
         node-version: [12.x]
 
     steps:
+    - name: Sleep for 1 seconds
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '1s'
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
