@@ -1,8 +1,7 @@
 ---
 title: iOS端末にのみ発生した豆腐（文字化け文字）とそれの対処
 tags:
-  - 豆腐
-  - 未解決
+  - Tohu
 date: 2019-07-09 9:00:0
 category: Web Frontend
 ---

@@ -6,6 +6,7 @@ tags:
   - Nuxt
   - Bulma
   - localForage
+  - Frontend
 category: Web Frontend
 ---
 
