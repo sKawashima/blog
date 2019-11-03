@@ -1,9 +1,9 @@
 ---
 title: 初めてハッカソンに出場して考えたこと
 tags:
-  - ハッカソン
-  - 企画提案
-  - UI/UXデザイン
+  - Hackathon
+  - Planning proposal
+  - UI/UX Design
   - SPAJAM2018
   - '!kie'
 date: 2018-05-19 19:37:22

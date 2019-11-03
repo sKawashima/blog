@@ -1,9 +1,9 @@
 ---
 title: デザイナーだがサーバーサイドエンジニアとしてハッカソンに参加しました
 tags:
-  - ハッカソン
-  - 企画提案
-  - サーバーサイドエンジニアリング
+  - Hackathon
+  - Planning proposal
+  - Backend
   - SPAJAM2019
   - RAISE UP
   - ryu-g

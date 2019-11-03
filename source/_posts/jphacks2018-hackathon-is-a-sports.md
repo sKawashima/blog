@@ -1,9 +1,9 @@
 ---
 title: 二度目のハッカソンで感じたこと
 tags:
-  - ハッカソン
-  - 企画提案
-  - UI/UXデザイン
+  - Hackathon
+  - Planning proposal
+  - UI/UX Design
   - JPHACKS2018
   - '!kie'
 date: 2018-10-29 09:15:05
