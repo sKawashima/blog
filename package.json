@@ -26,6 +26,7 @@
     "hexo-tag-googlemaps": "^1.2.1",
     "hexo-tag-link-preview": "^1.2.3",
     "hexo-tag-soundcloud": "^1.0.2",
+    "hexo-tag-theta360": "^1.0.3",
     "hexo-tag-twitter": "^1.0.1",
     "hexo-toc": "^1.1.0",
     "hexo-uglify": "^1.0.0",
