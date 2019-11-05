@@ -1966,10 +1966,10 @@ fsevents@^1.2.7:
     nan "^2.12.1"
     node-pre-gyp "^0.12.0"
 
-ftp-deploy@^2.3.5:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/ftp-deploy/-/ftp-deploy-2.3.5.tgz#b42b7a359cc0c1c87ca60e74742974d19abc948b"
-  integrity sha512-3q5ku+jOACgRD1J7lcpO5Mil2w3XzgDeq9IbzcGGWJqB6+7PqN8RcOkKYp1W1xbJ0kKoHlzzk3dncZNK8GHPaA==
+ftp-deploy@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/ftp-deploy/-/ftp-deploy-2.3.6.tgz#08ee8784fe77800a86af088d7c57af4d5c1c8cd9"
+  integrity sha512-X4/LaHhyQuGNcu3U9mogEgNiktuYubVsFhZiP90mDfvb8UxUrveZ/ESzauX5dI1YonDZvRqJp25iJ1mYUMeyyQ==
   dependencies:
     bluebird "^3.7.0"
     minimatch "3.0.4"
