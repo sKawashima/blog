@@ -14,7 +14,7 @@ body,html{height:100%}@media print{body,html{height:auto}}html{font-size:14px}@m
 
 .link-preview .link-area:hover {
   background-color: #ffffff;
-  filter:drop-shadow(0 0 1px rgba(0, 0, 0, 0.8));
+  filter:drop-shadow(0 0 1px rgba(0, 0, 0, 1));
 }
 
 .link-preview .og-image {
@@ -29,4 +29,27 @@ body,html{height:100%}@media print{body,html{height:auto}}html{font-size:14px}@m
 
 .link-preview .og-description{
   display: none;
+}
+
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  display: none;
+}
+
+.video-container {
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
 }
