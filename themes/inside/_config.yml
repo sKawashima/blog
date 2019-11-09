@@ -5,7 +5,7 @@
 # Appearance
 appearance:
   # Accent color, default '#2a2b33'
-  accent_color:
+  accent_color: '#4e1a68'
   # Font color, default '#363636'
   foreground_color:
   # Border color, default '#e0e0e0'
@@ -28,10 +28,11 @@ appearance:
   font:
     # Url of font css file
     # Below is a font set containing Baloo Bhaijaan, Josefin Sans, Montserrat and Inconsolata from Google Fonts.
-    url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat
+    url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata
+    # url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat
 
     # Base font which applied to body
-    base: "'Josefin Sans', 'PingFang SC'"
+    base: "'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, Arial, 'メイリオ', Meiryo, sans-serif"
     # Sidebar author font, fallback to `base`
     logo:
     # Sidebar menu font, fallback to `base`
@@ -56,15 +57,15 @@ appearance:
   # Uses an architecture called "base16" (https://github.com/chriskempson/base16),
   # the default theme is a customized Atelier Dune Light theme,
   # please feel free to explore more.
-  highlight:
+  # highlight:
 
   # Default Light by Chris Kempson (http://chriskempson.com)
-  # highlight: [
-  #   '#f8f8f8', '#e8e8e8', '#d8d8d8', '#b8b8b8',
-  #   '#585858', '#383838', '#282828', '#181818',
-  #   '#ab4642', '#dc9656', '#f7ca88', '#a1b56c',
-  #   '#86c1b9', '#7cafc2', '#ba8baf', '#a16946'
-  # ]
+  highlight: [
+    '#f8f8f8', '#e8e8e8', '#d8d8d8', '#b8b8b8',
+    '#585858', '#383838', '#282828', '#181818',
+    '#ab4642', '#dc9656', '#f7ca88', '#a1b56c',
+    '#86c1b9', '#7cafc2', '#ba8baf', '#a16946'
+  ]
 
   # Harmonic16 Light by Jannik Siebert (https://github.com/janniks)
   # highlight: [
@@ -86,19 +87,19 @@ appearance:
 profile:
   # `email` is used for gravatar(https://en.gravatar.com),
   # fallback to `hexo.config.email` if not specified
-  email:
+  # email:
 
   # You can set Avatar URL directly
-  # avatar:
+  avatar: https://avatars2.githubusercontent.com/u/9900753
 
-  bio: Awesome guy.
+  bio: I am interested in development, design and art. I am thinking what to learn to do what I want to do.
 
 # Sidebar navigation links
 menu:
   Home: /
   # About: /about
   # Links: /links
-  # Github: https://github.com/username
+  Github: https://github.com/sKawashima
 
 # Social media URL
 # Try to sort by changing the order of the keys
@@ -108,9 +109,9 @@ sns:
   # If you use hexo-generator-feed, `sns.feed` can be left blank
   # and the theme will try to get `hexo.config.feed.path`.
   feed:
-  github:
-  twitter:
-  facebook:
+  github: https://github.com/sKawashima
+  twitter: https://twitter.com/_skawashima
+  facebook: https://www.facebook.com/es.Kawashima
   instagram:
   tumblr:
   dribbble:
@@ -119,7 +120,7 @@ sns:
   hangouts:
   linkedin:
   pinterest:
-  soundcloud:
+  soundcloud: https://soundcloud.com/by_skeep
   myspace:
   weibo:
   qq:
@@ -162,8 +163,8 @@ post:
 
   # The following settings are the same as the page
   # toc: false
-  # reward: true
-  # copyright: true
+  reward: true
+  copyright: true
 
 # Archive
 archive:
@@ -320,7 +321,7 @@ data_dir:
 favicon:
 
 # Google analytics
-# ga: UA-00000000-0
+ga: UA-142085170-1
 
 # SEO
 seo:
