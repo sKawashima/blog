@@ -7,7 +7,7 @@ appearance:
   # Accent color, default '#2a2b33'
   accent_color: '#4e1a68'
   # Font color, default '#363636'
-  foreground_color:
+  foreground_color: '#333333'
   # Border color, default '#e0e0e0'
   border_color:
   # body background, default '#f5f7fa'
