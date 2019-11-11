@@ -14,7 +14,7 @@
     "hexo-fontawesome": "^2.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
-    "hexo-generator-feed": "^2.0.0",
+    "hexo-generator-feed": "^2.1.0",
     "hexo-generator-index": "^1.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-html-minifier": "^1.0.0",
