@@ -11,7 +11,7 @@
     "hexo": "^3.9.0",
     "hexo-clean-css": "^1.0.0",
     "hexo-filter-flowchart": "^1.0.4",
-    "hexo-fontawesome": "^2.0.0",
+    "hexo-fontawesome": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^2.0.0",
