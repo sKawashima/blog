@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.9.0"
+    "version": "4.0.0"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "ftp-deploy": "^2.3.6",
-    "hexo": "^3.9.0",
+    "hexo": "^4.0.0",
     "hexo-clean-css": "^1.0.0",
     "hexo-filter-flowchart": "^1.0.4",
     "hexo-fontawesome": "^2.1.0",
