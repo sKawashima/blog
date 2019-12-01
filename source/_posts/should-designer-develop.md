@@ -32,12 +32,11 @@ https://qiita.com/advent-calendar/2019/kufu
 
 僕は2019年4月にくふうカンパニーのみんなの**ウェディングに新卒UXデザイナーとして入社**しまして、8月から同くふうカンパニーの**Zaimにデザイナーとして出向**し、現在は**デザイナー**兼**フロントエンドエンジニア**（たまにReact書く程度）兼**データサイエンティスト**（たまにSQLとか叩きながらデータ見る程度）みたいなことをやってます。
 
-そうそう、先日**面白いデータを発信するサービス「Zaim トレンド」**の**アルファ版をリリース**しました。
+軽い宣伝ですが、先日**面白いデータを発信するサービス「Zaim トレンド」**の**アルファ版をリリース**しました。
 **リポDが買われる時間は極端に16時に偏っている**、と出てますが皆さんはいかがですか？
 興味がある方は是非覗いてみてください。
 
 <div class="link-preview"><a href="https://trends.zaim.net/product/3" class="link-preview" target="_blank" rel="noopener"><div class="link-area"><div class="og-image"><img src="https://trends.zaim.net/alphaOGP.jpg" alt="Zaim trends alpha"></div><div class="descriptions"><div class="og-title">Zaimトレンド</div><div class="og-description">Zaim トレンドは、家計簿サービス「Zaim」の買い物データを元に「最近、話題のあの商品、本当はどんな人が買ってるの？」や「いまニュースになっている、あのお店は誰に人気なの？」などが分かる、無料の発見サービスです。</div></div></div></a></div>
-
 会社とは別件で、先日出場したハッカソン「SPAJAM2019」では、**サーバーサイドエンジニア**として参加し、**チームとして全国優勝を果たしました。**
 ブログ記事書かなきゃなぁ…。
 
