@@ -39,6 +39,7 @@ https://qiita.com/advent-calendar/2019/kufu
 興味がある方は是非覗いてみてください（圧倒的宣伝）。
 
 <div class="link-preview"><a href="https://trends.zaim.net/" class="link-preview" target="_blank" rel="noopener"><div class="link-area"><div class="og-image"><img src="https://trends.zaim.net/alphaOGP.jpg" alt="Zaim trends alpha"></div><div class="descriptions"><div class="og-title">Zaimトレンド</div><div class="og-description">Zaim トレンドは、家計簿サービス「Zaim」の買い物データを元に「最近、話題のあの商品、本当はどんな人が買ってるの？」や「いまニュースになっている、あのお店は誰に人気なの？」などが分かる、無料の発見サービスです。</div></div></div></a></div>
+
 また、先日出場した**ハッカソン「SPAJAM2019」**では**サーバーサイドエンジニア**（Node.js/TypeScriptとMongo in Dockerで画像受け取れるCRUD API作っただけ）として参加し、**チームとして全国優勝を果たしました。**
 
 {% linkPreview https://spajam.jp/2019/final/result/ %}
