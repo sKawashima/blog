@@ -17,6 +17,9 @@ category: Design
 この記事は「[くふうカンパニー Advent Calendar 2019](https://qiita.com/advent-calendar/2019/kufu)」の3日目です。
 https://qiita.com/advent-calendar/2019/kufu
 
+Qiitaにも転載してあります。
+https://qiita.com/sKawashima/items/2ba555ef709729e79d2a
+
 この記事は、**ルームシェア相手**にして普段**グラフィックデザイナー**やりつつ業務として**Unityなどの開発**を経験がある友人との対談を元に執筆しています。
 協力ありがとう。
 
