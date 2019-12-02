@@ -17,6 +17,9 @@ category: Design
 この記事は「[くふうカンパニー Advent Calendar 2019](https://qiita.com/advent-calendar/2019/kufu)」の3日目です。
 https://qiita.com/advent-calendar/2019/kufu
 
+Qiitaにも転載してあります。
+https://qiita.com/sKawashima/items/2ba555ef709729e79d2a
+
 この記事は、**ルームシェア相手**にして普段**グラフィックデザイナー**やりつつ業務として**Unityなどの開発**を経験がある友人との対談を元に執筆しています。
 協力ありがとう。
 
@@ -39,7 +42,6 @@ https://qiita.com/advent-calendar/2019/kufu
 興味がある方は是非覗いてみてください（圧倒的宣伝）。
 
 <div class="link-preview"><a href="https://trends.zaim.net/" class="link-preview" target="_blank" rel="noopener"><div class="link-area"><div class="og-image"><img src="https://trends.zaim.net/alphaOGP.jpg" alt="Zaim trends alpha"></div><div class="descriptions"><div class="og-title">Zaimトレンド</div><div class="og-description">Zaim トレンドは、家計簿サービス「Zaim」の買い物データを元に「最近、話題のあの商品、本当はどんな人が買ってるの？」や「いまニュースになっている、あのお店は誰に人気なの？」などが分かる、無料の発見サービスです。</div></div></div></a></div>
-
 また、先日出場した**ハッカソン「SPAJAM2019」**では**サーバーサイドエンジニア**（Node.js/TypeScriptとMongo in Dockerで画像受け取れるCRUD API作っただけ）として参加し、**チームとして全国優勝を果たしました。**
 
 {% linkPreview https://spajam.jp/2019/final/result/ %}
@@ -147,6 +149,12 @@ PC内で作業するとどんどん硬くなるので、**PCを閉じて紙と�
 なんせ、**デザイナーは理想を語れる役職**で、UXデザインなんてその根本です。
 その理想を実現する仕組みを語れれば、色んな事ができそうで楽しそうじゃないですか？。
 
+## どこからやればいい？
+
+散々、メリットとデメリットを語りながら手がかりに触れないのはどうかと思ったので追記してます。
+勉強しようと思ったときは、とりあえずドットインストールなどの基本が学べるサービスを使いつつ、**作りたいものを作ってみる**という活動が一番だと思います。
+本当にシンプルなものでいいので、チャレンジしてみると色々見えてきますよ。
+
 ## おまけ：エンジニアがデザインを学ぶメリットとデメリット
 
 これ、案外考えてみたことなかったです。
@@ -186,6 +194,11 @@ PC内で作業するとどんどん硬くなるので、**PCを閉じて紙と�
 はい。
 
 はいじゃないが。
+
+### どこからやればいい？
+
+先にも話題に出しましたが、「**ゲシュタルトの法則**」を軽く読むだけで世界が変わって見えます。
+内容は被りますが、「**ノンデザイナーズ・デザインブック**」は名著なので読んでみるとよいかと思います。
 
 ## 以上です
 
