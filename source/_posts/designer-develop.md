@@ -64,9 +64,9 @@ https://qiita.com/advent-calendar/2019/kufu
 
 とはいえ、最近はツールの進化に伴ってそのメリットが弱まってきたように感じます。
 
-例えば、SketchやAdobe XD、Figmaなどは単純な画面の遷移の再現がとても容易になっています。
-また、AtomicやFramerなどを用いれば画面遷移間中のアニメーションまで表現できます。
-さらに、STUDIOなどのGUIでWeb開発できるツール群はレスポンシブなどに対応し始め、復活しつつあります（STUDIOは少なからずHTML/CSSの基礎程度の能力が求められている気もしますが）。
+例えば、[Sketch](https://www.sketch.com/)や[Adobe XD](https://www.adobe.com/jp/products/xd.html)、[Figma](https://www.figma.com/)などは単純な画面の遷移の再現がとても容易になっています。
+また、[Atomic](https://atomic.io/)や[Framer](https://www.framer.com/)などを用いれば画面遷移間中のアニメーションまで表現できます。
+さらに、[STUDIO](https://studio.design/ja)などのGUIでWeb開発できるツール群はレスポンシブなどに対応し始め、復活しつつあります（STUDIOは少なからずHTML/CSSの基礎程度の能力が求められている気もしますが）。
 
 言い換えれば、開発に手を出さなくとも、アイデアを動かしてみせるだめのツールを扱う能力は必須ということです。
 ただ、開発に手を出してしまえばプロトタイプのその先、実現も視野に入れられるということは確かですね。
