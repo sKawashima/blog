@@ -60,12 +60,12 @@ appearance:
   # highlight:
 
   # Default Light by Chris Kempson (http://chriskempson.com)
-  highlight: [
-    '#f8f8f8', '#e8e8e8', '#d8d8d8', '#b8b8b8',
-    '#585858', '#383838', '#282828', '#181818',
-    '#ab4642', '#dc9656', '#f7ca88', '#a1b56c',
-    '#86c1b9', '#7cafc2', '#ba8baf', '#a16946'
-  ]
+  # highlight: [
+  #   '#f8f8f8', '#e8e8e8', '#d8d8d8', '#b8b8b8',
+  #   '#585858', '#383838', '#282828', '#181818',
+  #   '#ab4642', '#dc9656', '#f7ca88', '#a1b56c',
+  #   '#86c1b9', '#7cafc2', '#ba8baf', '#a16946'
+  # ]
 
   # Harmonic16 Light by Jannik Siebert (https://github.com/janniks)
   # highlight: [
@@ -76,12 +76,12 @@ appearance:
   # ]
 
   # Tomorrow Night by Chris Kempson (http://chriskempson.com)
-  # highlight: [
-  #   '#1d1f21', '#282a2e', '#373b41', '#969896',
-  #   '#b4b7b4', '#c5c8c6', '#e0e0e0', '#ffffff',
-  #   '#cc6666', '#de935f', '#f0c674', '#b5bd68',
-  #   '#8abeb7', '#81a2be', '#b294bb', '#a3685a'
-  # ]
+  highlight: [
+    '#1d1f21', '#282a2e', '#373b41', '#969896',
+    '#b4b7b4', '#c5c8c6', '#e0e0e0', '#ffffff',
+    '#cc6666', '#de935f', '#f0c674', '#b5bd68',
+    '#8abeb7', '#81a2be', '#b294bb', '#a3685a'
+  ]
 
 # Sidebar profile
 profile:
