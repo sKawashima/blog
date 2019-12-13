@@ -25,5 +25,5 @@ ftpDeploy.deploy(config)
   })
 
 ftpDeploy.on('uploaded', (data) => {
-  console.log(`uploded ${data.transferredFileCount}: ${data.filename}`) // same data as uploading event
+  console.log(`uploded ${data.transferredFileCount}: ${data.filename}`)
 })
