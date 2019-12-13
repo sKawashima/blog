@@ -9,7 +9,7 @@ date: 2019-12-13 23:26:43
 category: Development
 ---
 
-![title](title.jpg)
+![title](github-actions-auto-release/title.jpg)
 
 どうも、sKawashimaです。
 
