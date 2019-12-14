@@ -9,8 +9,6 @@ date: 2019-12-13 23:26:43
 category: Development
 ---
 
-<!-- ![title](title.jpg) -->
-
 どうも、sKawashimaです。
 
 最近 **GitHub Actionsでデプロイやファイル加工を自動化すること** がクセになりつつあります。
