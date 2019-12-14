@@ -5,7 +5,8 @@ tags:
   - Hexo
   - Markdown
   - Blog
-category: Web Frontend
+  - Web Frontend
+category: Development
 ---
 
 コトの発端は、[ポートフォリオサイト](http://skawashima.com)を作った際に、更新していく内容が無いこと、Markdownを書き慣れすぎて[これまでやってたブログ](http://by-sk.blog.jp/)の記事作りが非常に面倒に感じ始めてしまったこと。発端と言いながら２つもあることは一旦置いといて、今回はこのブログを成り立たせている技術と、それに至るまでに触れた技術をざっくり並べようと思う。初めての環境でブログを書いているので、とりあえず口調は自分語り口調で行こうと思う。

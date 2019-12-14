@@ -4,10 +4,11 @@ date: 2018-04-10 00:57:21
 tags:
   - PWA
   - Nuxt
+  - Vue
   - Bulma
   - localForage
   - Frontend
-category: Web Frontend
+category: Development
 ---
 
 先日、以前から知り合いで最近交流が活発になった後輩の **yamaken** 君が**ワードウルフのiOSアプリを公開**しました。

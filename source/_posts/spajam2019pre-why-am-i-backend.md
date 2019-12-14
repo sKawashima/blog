@@ -1,7 +1,6 @@
 ---
 title: デザイナーだがサーバーサイドエンジニアとしてハッカソンに参加しました
 tags:
-  - Hackathon
   - Planning proposal
   - Backend
   - SPAJAM2019
