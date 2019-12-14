@@ -265,10 +265,10 @@ reward:
 # It is possible to use front matter `copyright` to override this setting.
 copyright:
   # Display author, default to `true`
-  # author: true
+  author: true
 
   # Display link, default to `true`
-  # link: false
+  link: false
 
   # license: Attribution-NonCommercial-NoDerivatives 4.0 International
   #   (<a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\"
@@ -326,7 +326,7 @@ ga: UA-142085170-1
 # SEO
 seo:
   # Render structured-data in <head>, default to `false`
-  # structured_data: true
+  structured_data: true
 
 # PWA
 pwa:
