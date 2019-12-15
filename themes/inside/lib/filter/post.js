@@ -38,7 +38,7 @@ module.exports = function (data) {
           s.replace(/^\/*(.*[^\/])\/*$/, prefix + '/$1' + suffix)
       })() :
       config.post_asset_folder ?
-        (s, p) => /\//.test(s) ? s : `/${p}/${s}` :
+        (s, p) => /\//.test(s) ? s : `${p}/${s}` :
         s => s;
 
   // pre format date for i18n
