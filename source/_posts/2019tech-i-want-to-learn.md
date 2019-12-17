@@ -1,9 +1,10 @@
 ---
-title: 2019tech-i-want-to-learn
+title: 2019年末版：今、僕が勉強したい技術3選
 tags:
-  - Markdown
+  - Technology
+  - Selection
 date: 2019-12-17 12:26:46
-category:
+category: Development
 ---
 
 イントロ
@@ -16,4 +17,11 @@ category:
 
 <!-- toc -->
 
-## 見出し1
+## Svelte
+
+## Flutter
+
+## Unity
+
+## おまけ：勉強をおすすめする技術
+
