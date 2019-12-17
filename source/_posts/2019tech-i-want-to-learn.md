@@ -1,5 +1,5 @@
 ---
-title: 2019年末版：今、僕が勉強したい技術3選
+title: 2019年末版：今、僕が勉強したい技術4選
 tags:
   - Technology
   - Selection
@@ -21,7 +21,7 @@ category: Development
 
 ## Flutter
 
-## Unity
+## Go
 
-## おまけ：勉強をおすすめする技術
+## Unity
 
