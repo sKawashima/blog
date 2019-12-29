@@ -23,7 +23,9 @@ Svelteとは？みたいなところには触れません。
 
 `input` フォームのコンポーネントからそれを呼び出す親のコンポーネントで入力されたデータを扱おうとしました。
 
-``` Input.svelte
+Input.svelte
+
+```html
 <script>
   export let value = 'value'
 </script>
@@ -31,7 +33,9 @@ Svelteとは？みたいなところには触れません。
 <input bind:value={value} />
 ```
 
-``` Form.svelte
+Form.svelte
+
+```html
 <script>
   import Input from '../atoms/Input.svelte'
   let data = 'test'
@@ -52,7 +56,9 @@ Svelteとは？みたいなところには触れません。
 具体例です。
 解決済みのForm.svelteはこんな感じ。
 
-``` Form.svelte
+Form.svelte
+
+```html
 <script>
   import Input from '../atoms/Input.svelte'
   let data = 'test'
