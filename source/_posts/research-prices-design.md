@@ -197,7 +197,7 @@ category: Design
 
 #### デザインから受ける印象
 
-シンプル。　
+シンプル。
 
 Organizationでのみ、Everything in Professional, plus... というように記載量を減らしている。
 一気に増えるならこういう表現も良さそう。
