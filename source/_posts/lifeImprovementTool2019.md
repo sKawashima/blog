@@ -1,7 +1,6 @@
 ---
-title: 日々の生産性を維持するために使ってるツール、サービス紹介 2019年12月版
+title: 2019年に使っていて2020年に持っていく、日々の生産性の維持に役立つツール・サービス6選
 tags:
-  - Google Calendar
   - Todoist
   - RescueTime
   - Toggl
@@ -13,8 +12,10 @@ category: Tool
 ---
 
 どうも、sKawashimaです。
-今回は2019年12月現在、自分の生産性の維持や向上のために使っているおすすめのアプリ、サービスを紹介します。
+タイトルの通り、2019年12月31日現在に使っていて、2020年でも確実に使っているであろうツール・サービスを紹介します。
 
+特に、僕が自分の生活を改善しようとしたり、少しでも有用な時間の活用をしたいと思って使っているツールを紹介します。
+では、始めます。
 
 <!-- more -->
 
@@ -27,6 +28,8 @@ category: Tool
 ## 予定・行動管理
 
 ### Todoist
+
+{% linkPreview https://todoist.com/ %}
 
 タスク管理ツールです。
 
@@ -48,16 +51,21 @@ Google Calendarにタスクを追加するとその期日のタスクがTodoist�
 
 ### RescueTime
 
+{% linkPreview https://www.rescuetime.com/ %}
+
+
 PCで何にどれだけ時間を使ったかを残せるサービスです。
 ソフトウェアやサイト名まで判定してくれます。
 
 PCにインストールすれば「何もしなくても」記録できるので、自動で記録されることのありがたさを実感できます。
 自分の生産性をリアルに計れる数少ない指標ですね。
 
-![resquetime](lifeImprovementTool2019/resquetime.png)
+![resquetime](resquetime.png)
 今月は67点だそうで…、まあ自宅PCなので良いほうだと思います。
 
 ### Toggl
+
+{% linkPreview https://toggl.com/ %}
 
 時間を計測する価値がある場合にのみ使うタスク時間計測ツールです。
 特定のタスクにどれだけの時間を掛けたのかを計測できるので、自己評価の指標になります。
@@ -69,12 +77,16 @@ RescueTimeと違い自分でスタート/ストップを押すので、自己申
 
 ### Slack + 各種App
 
+{% linkPreview https://slack.com/ %}
+
 コミュニケーションツールであるSlackですが、自分は個人ワークスペースを作って情報収集ツールとして使用しています。
 最近Inoreader（RSSリーダー）を使わなくなってこっちに移行したので、その話にも一瞬触れます。
 
 Appと一緒に詳しく紹介していきます。
 
-#### [RSS](https://slack.com/apps/A0F81R7U7-rss)
+#### RSS
+
+{% linkPreview https://slack.com/apps/A0F81R7U7-rss %}
 
 最近知らない人が増えているらしいRSSです。
 有名どころであれば大抵のブログは監視できます。
@@ -94,7 +106,9 @@ App数が1つの扱いなので無料プランでも安心です。
 以上の理由でRSS監視をSlackに移行しました。
 割といい感じです。
 
-#### [Twitter](https://slack.com/apps/A0F7XDW93-twitter)
+#### Twitter
+
+{% linkPreview https://slack.com/apps/A0F7XDW93-twitter %}
 
 外すわけには行かないTwitter。
 
@@ -106,7 +120,9 @@ Slackの通知が来るので安心です。
 
 `#watch-konosuba`などのチャンネルで利用しています。
 
-#### [GitHub](https://slack.com/apps/A8GBNUWU8-github)
+#### GitHub
+
+{% linkPreview https://slack.com/apps/A8GBNUWU8-github %}
 
 個人開発のときに使ってます。
 
@@ -114,17 +130,21 @@ CIの通知が主目的ですね。
 
 `#dev-blog`などのチャンネルで利用しています。
 
-#### [Statsbot](https://slack.com/apps/A0GP9E18S-statsbot)
+#### Statsbot
+
+{% linkPreview https://slack.com/apps/A0GP9E18S-statsbot %}
 
 Google Analyticsのデータを元にグラフを作成し、定期的にSlackに貼ることができます。
 
 例えばこのブログの流入元はこんな感じ。
 そもそも絶対数が少ない。
-![statsbot](lifeImprovementTool2019/statsbot.png)
+![statsbot](statsbot.png)
 
 Webサービスの方でグラフの作成と通知の設定ができるので、難しいことはあまりないです。
 
 ### Pocket
+
+{% linkPreview https://getpocket.com %}
 
 一言で表すと「あとで読む記事蓄積サービス」です。
 スマホからは共有→Pocketを選択、PCからはGoogle ChromeのPocket拡張機能で好きな記事を蓄積できます。
@@ -138,7 +158,17 @@ Pocketアプリからこの機能を呼び出すと、蓄積した記事の文�
 
 ### Scrapbox
 
-ありとあらゆる情報を流し込めるザナドゥ的Wiki。
-個人の何でも用、日記、やりたいことなどで分けている。
-独特の記法だが、慣れれば心地よい。
-UserCSS、UserScriptなど柔軟であることも魅力。
+{% linkPreview https://scrapbox.io %}
+
+ありとあらゆる情報を流し込めるWikiです。
+あるページからあるページにリンクを貼ると、被リンク側からリンク元が辿れるようになるある種ザナドゥ的なリンクの仕様を持っています。
+
+個人のメモ、情報ライブラリ、日記、やりたいことで複数のProjectを個人で使っています。
+Scrapbox日記は個人の思考整理にも役立つのでそのうち記事にするかもしれないです。
+
+記法は独自のものですが、専用記法でも覚えやすくシンプルなのでいいカンジです。
+ただ、MarkdownやHTMLとは根本的思想が異なるので、戸惑う人は戸惑うかも知れません。
+
+が、全部ほったらかして情報を蓄積していくツールとしてはありとあらゆるツールの中で群を抜いていると思いながら使っています。
+
+また、特定のプロジェクトに対してCSSで加工できるありとあらゆるアレンジをする機能「UserCSS」があるので、これはこれで何でも出来て楽しいです。
