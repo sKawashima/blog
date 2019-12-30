@@ -2,7 +2,8 @@
   "rules": {
     "preset-ja-technical-writing": {
       "ja-no-mixed-period": {
-        "allowPeriodMarks": ["、", "！", "💪", "…"]
+        "allowPeriodMarks": ["、", "！", "…", "）", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+        "allowEmojiAtEnd": true
       },
       "no-doubled-joshi": false,
       "no-exclamation-question-mark": false,

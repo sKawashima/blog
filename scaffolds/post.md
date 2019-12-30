@@ -6,7 +6,7 @@ tags:
 category:
 ---
 
-イントロ
+イントロ文。
 
 <!-- more -->
 
