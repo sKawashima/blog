@@ -1,9 +1,9 @@
 ---
 title: Svelteでon〇〇の関数にイベントを引数で渡す
 tags:
-  - Markdown
+  - Svelte
 date: 2020-01-02 21:29:42
-category:
+category: Development
 ---
 
 ちょいハマってあっさり解決したのでメモです。
