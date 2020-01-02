@@ -107,7 +107,7 @@ const printEvent = () => {
 
 つまるところ、文字列としてそのまま代入されてしまうんですね…。
 
-逆に言うと、以下のようにすれば動かせせなくもないです。
+逆に言うと、以下のようにすれば動かせます。
 
 ```html
 <script>
@@ -117,7 +117,7 @@ const printEvent = console.log('test')
 <img src='null.jpg' onerror={printEvent}>
 ```
 
-コンパイルすると
+コンパイルすると、
 
 ```html
 <img src='null.jpg' onerror=console.log('test')>
