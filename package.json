@@ -30,7 +30,7 @@
     "hexo-tag-twitter": "^1.0.1",
     "hexo-toc": "^1.1.0",
     "hexo-uglify": "^1.1.0",
-    "textlint": "^11.6.1",
+    "textlint": "^11.6.2",
     "textlint-rule-preset-ja-technical-writing": "^3.1.3"
   },
   "scripts": {
