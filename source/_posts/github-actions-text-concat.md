@@ -21,6 +21,7 @@ GitHub Actionsが便利すぎて個人開発で重宝してるんですが、そ
 ```
 hoge: ${{'constant '}}${{variable}}
 fuga: ${{'*うまくやればスタイルも'}}${{variable}}${{'あてられますね*'}}
+piyo: 'envならこの書き方でも{{variable}}いけることがある？'
 ```
 
 これだけ。
