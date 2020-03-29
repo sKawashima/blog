@@ -96,13 +96,13 @@ end
 
 ### appフォルダ
 
-MVC設計
+#### MVC設計
 
 - models
 - views
 - controllers
 
-他に使うもの
+#### 他に使うもの
 
 - assets: 画像やJS,CSSをいれる
 
@@ -126,8 +126,8 @@ rails db:migrate:reset
 
 ### 初期データ定義
 
-`db/seeds.rb`をいじる
-rubyを直接書ける
+`db/seeds.rb`をいじる。
+rubyを直接書ける。
 
 ```ruby:4つの初期データを生成する場合
 5.times do |i|
@@ -141,14 +141,14 @@ rails db:seed
 
 ### 詳細定義
 
-`app/models/name.rb`をいじる
+`app/models/name.rb`をいじる。
 
 ```ruby:Validation
 validates :sub, presence: true, length: { minimum: 3 }
 # presence: true > 入力必須
 ```
 
-これを定義した場合、サーバーサイドValidationでErrorが出た場合のController/Viewを定義する必要があるので留意（[参考](https://dotinstall.com/lessons/basic_rails_v3/41817)）
+これを定義した場合、サーバーサイドValidationでErrorが出た場合のController/Viewを定義する必要があるので留意（[参考](https://dotinstall.com/lessons/basic_rails_v3/41817)）。
 
 ```ruby:別のModelとの紐付け
 has_many :name2s, dependent: destroy
@@ -156,7 +156,7 @@ has_many :name2s, dependent: destroy
 
 ## Controller
 
-ModelとViewをつなぐ役割。Modelを基準に生成する
+ModelとViewをつなぐ役割。Modelを基準に生成する。
 
 ```shell:ファイル生成
 rails g controller Names
@@ -165,9 +165,9 @@ rails g controller Names
 
 ### routing
 
-=URLとControllerの紐付け
+=URLとControllerの紐付け。
 
-`config/routes.rb`を編集する
+`config/routes.rb`を編集する。
 
 ```ruby:Modelについて自動生成
 resources :names
@@ -212,7 +212,7 @@ def show
 end
 ```
 
-`all.order`や`find`は**Active Record**を参照
+`all.order`や`find`は**Active Record**を参照。
 
 ```ruby:Modelの追加保存（フォームから呼び出す形式で）
 def create
@@ -246,18 +246,18 @@ render :status => 404
 
 ### 全体管理
 
-`app/views/layouts/application.html.erb`を参照
+`app/views/layouts/application.html.erb`を参照。
 
-railsで生成された要素は`<%= yield =>`部に入る
+railsで生成された要素は`<%= yield =>`部に入る。
 
 #### CSS
 
-`app/assets/stylecheets/application.css`を参照
+`app/assets/stylecheets/application.css`を参照。
 
 ### 新規作成
 
-Model-Controllerに紐付けて作る
-`app/views/names/`に`関数名.html.erb`を作成
+Model-Controllerに紐付けて作る。
+`app/views/names/`に`関数名.html.erb`を作成。
 
 #### erb記法
 
@@ -280,7 +280,7 @@ Model-Controllerに紐付けて作る
 </ul>
 ```
 
-変数`@names`などは、controllerで指定したものをそのまま呼び出せる
+変数`@names`などは、controllerで指定したものをそのまま呼び出せる。
 
 #### ファイル分割
 
@@ -295,7 +295,7 @@ Model-Controllerに紐付けて作る
 
 ### ヘルパー
 
-関数的動きをする決まった書き方
+関数的動きをする決まった書き方。
 
 ```erb:link_to
 <h2>一覧</h2>
@@ -357,7 +357,7 @@ Model-Controllerに紐付けて作る
 
 ## rails console
 
-直接データベースを弄ったりできる：ActiveRecord
+直接データベースを弄ったりできる：ActiveRecord。
 
 ```shell:入る
 rails c
@@ -380,9 +380,9 @@ Name.all
 
 ## rails dbconsole
 
-railsで管理するデータベースのCUIを操作する
-データを見ながら編集するときなどに使う
-SQLで操作できる
+railsで管理するデータベースのCUIを操作する。
+データを見ながら編集するときなどに使う。
+SQLで操作できる。
 
 ```shell:入る
 rails db
@@ -392,7 +392,7 @@ rails db
 .tables
 ```
 
-Modelのテーブルは`names`のように小文字＋複数形になっている
+Modelのテーブルは`names`のように小文字＋複数形になっている。
 
 ```shell:特定のテーブルのデータ一覧取得
 select * from names;
@@ -419,7 +419,7 @@ if cookies[:name]
 
 ### CoC
 
-細かいファイル配置などが決まっているからこそ書くコードが少なくて済むという思想・規約
+細かいファイル配置などが決まっているからこそ書くコードが少なくて済むという思想・規約。
 
 ### Active Record
 
