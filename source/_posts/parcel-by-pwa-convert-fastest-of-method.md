@@ -9,6 +9,7 @@ category: Development
 ---
 
 > この記事はQiitaに書いていた自身の記事のコピーです。
+
 PWAに必要なもの、こと（最低限）は以下の通り。
 
 - PWA化するWebサイト、Webアプリケーション

@@ -3,11 +3,12 @@ title: Nuxt上でフロントサイドライブラリを使うメモ
 tags:
   - JavaScript
   - Nuxt
-date: 2020-10-15 17:34:09
+date: 2018-10-15 17:34:09
 category: Development
 ---
 
 > この記事はQiitaに書いていた自身の記事のコピーです。
+
 Nuxt上でTone.jsを使いたかった。
 `window is not defined`っておこられた。
 ESLintはStandardを使用。
