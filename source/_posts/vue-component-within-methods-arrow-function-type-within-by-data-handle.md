@@ -3,8 +3,8 @@ title: Vue Component内methodsのアロー関数式内でdataを扱う
 tags:
   - JavaScript
   - Vue
-date: 2020-03-29 17:36:14
-category:
+date: 2018-10-15 17:36:14
+category: Development
 ---
 
 > この記事はQiitaに書いていた自身の記事のコピーです。

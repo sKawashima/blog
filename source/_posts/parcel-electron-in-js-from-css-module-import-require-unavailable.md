@@ -1,6 +1,7 @@
 ---
 title: Parcel+ElectronではJSからCSSモジュールをimport/require出来ない
 tags:
+  - Node.js
   - JavaScript
   - Electron
   - Parcel

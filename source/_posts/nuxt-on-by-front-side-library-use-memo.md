@@ -41,7 +41,6 @@ if (process.browser) {
 }
 ```
 
-
 ### ポイント
 
 - `if (process.browser)`
