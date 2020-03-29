@@ -3,7 +3,7 @@ title: Promiseでの処理順指定の最低限メモ
 tags:
   - JavaScript
 date: 2018-07-27 17:23:17
-category:
+category: Development
 ---
 
 > この記事はQiitaに書いていた自身の記事のコピーです。
