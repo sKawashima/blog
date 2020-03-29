@@ -15,7 +15,6 @@ category: Development
 [簡単に組み込めるマークダウンエディタとして紹介されてる記事](http://unitopi.com/markdown-editor/)がいくつか上がってるライブラリ。
 便利そうです。
 
-
 <!-- more -->
 
 ---
@@ -27,7 +26,7 @@ category: Development
 ## npm経由で使おうとした
 
 ```shell
-$ npm i simplemde
+npm i simplemde
 ```
 
 ```app.js
