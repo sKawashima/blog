@@ -5,8 +5,8 @@ tags:
   - Electron
   - Parcel
   - CSS
-date: 2020-03-29 17:25:57
-category:
+date: 2018-07-25 17:25:57
+category: Development
 ---
 
 > この記事はQiitaに書いていた自身の記事のコピーです。
