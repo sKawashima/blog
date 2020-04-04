@@ -14,7 +14,7 @@ const config = {
   forcePasv: true
 }
 
-// console.log(`user: ${config.user}, password: ${config.password}, host: ${config.host}`);
+console.log(`user: ${config.user}, password: ${config.password}, host: ${config.host}`)
 
 ftpDeploy.deploy(config)
   .then((res) => {
@@ -23,7 +23,7 @@ ftpDeploy.deploy(config)
   .catch((err) => {
     throw err
   })
-
+//
 ftpDeploy.on('uploaded', (data) => {
   console.log(`uploded ${data.transferredFileCount}: ${data.filename}`)
 })
