@@ -2,13 +2,13 @@
 title: 利用プラン選択画面（料金一覧画面）のUIをまとめてみた
 tags:
   - UI
-date: 2019-12-20 10:06:55
+date: 2020-05-13 23:30
 category: Design
 ---
 
-![title](research-prices-design/title.jpg)
+![title](title.jpg)
 
-先日、利用プラン選択画面を観察する機会がありまして、そのときに調べたいろいろをまとめてみました。
+半年くらい前に、利用プラン選択画面を観察する機会がありまして、そのときに調べたものを並べました。
 
 チェックポイントは以下の通り。
 
@@ -18,47 +18,55 @@ category: Design
 * デザイン分類
 * デザインから受ける印象
 
-では、見ていきましょう。
+いい感じのまとめは人に見せられるほどまとまってないので、事例集程度にさっくり眺めていってください。
 
 <!-- more -->
 
 ---
 
-### 目次
-
-<!-- toc -->
-
-## 概要
-
-### プランの数
-
-ほとんどが2つから4つの間です。
-
-### プランの命名
-
-### デザインをカテゴライズしてみる
-
-## 調べたものを詳しく紹介
-
-### Apple Music
-
-![apple_music](research-prices-design/apple_music.png)
+### 概要
 
 #### プラン数
 
-3
+2-5種。
 
 #### プラン命名
 
-利用者属性型（学生、個人、ファミリー）
+* 特別さをアピールするもの
+* ユーザーを評価するもの
+* サービスを評価するもの
+* その他
+
+に分けられそう。
+適当に〜型とかつけちゃってます。
 
 #### 無料プランとの比較の有無
 
-無し
+有るものが多め。
 
 #### デザイン分類
 
-リスト型
+ブロック、リスト、テーブルにさっくり分けられた。
+
+### Apple Music
+
+![apple_music](apple_music.png)
+
+#### プラン数
+
+3種。
+
+#### プラン命名
+
+利用者属性型（学生、個人、ファミリー）。
+
+#### 無料プランとの比較の有無
+
+無し。
+
+#### デザイン分類
+
+リスト型。
 
 #### デザインから受ける印象
 
@@ -69,23 +77,23 @@ category: Design
 
 ### Asana
 
-![asana](research-prices-design/asana.png)
+![asana](asana.png)
 
 #### プラン数
 
-4
+4種。
 
 #### プラン命名
 
-上昇型（Basic、Premium、Business、Enterprise）
+上昇型（Basic、Premium、Business、Enterprise）。
 
 #### 無料プランとの比較の有無
 
-有り
+有り。
 
 #### デザイン分類
 
-テーブル型
+テーブル型。
 
 #### デザインから受ける印象
 
@@ -96,23 +104,23 @@ category: Design
 
 ### Cacoo
 
-![cacoo](research-prices-design/cacoo.png)
+![cacoo](cacoo.png)
 
 #### プラン数
 
-1
+1種。
 
 #### プラン命名
 
-無し
+無し。
 
 #### 無料プランとの比較の有無
 
-無し
+無し。
 
 #### デザイン分類
 
-テーブル型？
+テーブル型（？）。
 
 #### デザインから受ける印象
 
@@ -126,23 +134,23 @@ category: Design
 
 ### Dribbble
 
-![dribbble](research-prices-design/dribbble.png)
+![dribbble](dribbble.png)
 
 #### プラン数
 
-2
+2種。
 
 #### プラン命名
 
-上昇型（Pro、Pro Business）
+上昇型（Pro、Pro Business）。
 
 #### 無料プランとの比較の有無
 
-無し
+無し。
 
 #### デザイン分類
 
-テーブル型
+テーブル型。
 
 #### デザインから受ける印象
 
@@ -151,23 +159,23 @@ category: Design
 
 ### Dyton Technology +
 
-![dyson_technology](research-prices-design/dyson_technology.png)
+![dyson_technology](dyson_technology.png)
 
 #### プラン数
 
-2段階 × 3種類
+2段階 × 3種類種。
 
 #### プラン命名
 
-サービス特徴型（アドバンスプラン、パフォーマンスプラン）
+サービス特徴型（アドバンスプラン、パフォーマンスプラン）。
 
 #### 無料プランとの比較の有無
 
-無し（無料プランが存在しない）
+無し（無料プランが存在しない。）
 
 #### デザイン分類
 
-タイル型
+タイル型。
 
 #### デザインから受ける印象
 
@@ -177,23 +185,23 @@ category: Design
 
 ### Figma
 
-![figma](research-prices-design/figma.png)
+![figma](figma.png)
 
 #### プラン数
 
-3
+3種。
 
 #### プラン命名
 
-サービス利用の熟練度型（Starter、Professional、Organization）
+サービス利用の熟練度型（Starter、Professional、Organization）。
 
 #### 無料プランとの比較の有無
 
-有り
+有り。
 
 #### デザイン分類
 
-ブロック型
+ブロック型。
 
 #### デザインから受ける印象
 
@@ -204,49 +212,49 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Google Play Music
 
-![google_play_music](research-prices-design/google_play_music.png)
+![google_play_music](google_play_music.png)
 
 #### プラン数
 
-2
+2種。
 
 #### プラン命名
 
-メリット型（無料、無制限）
+メリット型（無料、無制限）。
 
 #### 無料プランとの比較の有無
 
-有り
+有り。
 
 #### デザイン分類
 
-リスト型
+リスト型。
 
 #### デザインから受ける印象
 
 プランの命名が特徴的で印象に残った。
 
-無料プランと無制限プランの共通点が3つ、ちょうどいい数な気がする（多すぎると見てて疲れる）。
+無料プランと無制限プランの共通点が3つ、ちょうどいい数な気がする（多すぎると見ていて疲れる）。
 
 ### GREENa
 
-![greena](research-prices-design/greena.png)
+![greena](greena.png)
 
 #### プラン数
 
-2
+2種。
 
 #### プラン命名
 
-基本とその他型（GREENa RE 100プラン、GREENa スタンダードプラン）
+基本とその他型（GREENa RE 100プラン、GREENa スタンダードプラン）。
 
 #### 無料プランとの比較の有無
 
-無し（無料プランが存在しない）
+無し（無料プランが存在しない。）
 
 #### デザイン分類
 
-ブロック型
+ブロック型。
 
 #### デザインから受ける印象
 
@@ -258,23 +266,23 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### 新しいKyash Card
 
-![kyash](research-prices-design/kyash.png)
+![kyash](kyash.png)
 
 #### プラン数
 
-3
+3種。
 
 #### プラン命名
 
-サービス特徴型（Kyash Card、Kyash Card Lite、Kyash Card Virtual）
+サービス特徴型（Kyash Card、Kyash Card Lite、Kyash Card Virtual）。
 
 #### 無料プランとの比較の有無
 
-有り（月額料金はサービスとして無く、発行手数料で比較）
+有り（月額料金はサービスとし。て無く、発行手数料で比較）
 
 #### デザイン分類
 
-テーブル型
+テーブル型。
 
 #### デザインから受ける印象
 
@@ -284,49 +292,49 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### LINE WORKS
 
-![line_works](research-prices-design/line_works.png)
+![line_works](line_works.png)
 
 #### プラン数
 
-4
+4種。
 
 #### プラン命名
 
-上昇型（フリー、ライト、ベーシック、プレミアム）
+上昇型（フリー、ライト、ベーシック、プレミアム）。
 
 #### 無料プランとの比較の有無
 
-有り
+有り。
 
 #### デザイン分類
 
-テーブル型
+テーブル型。
 
 #### デザインから受ける印象
 
-利用ユーザーのニーズが「〜〜したい」調で書かれているので、自分にあったプランがどれなのかがわかりやすい。
+利用ユーザーのニーズが「〜したい」調で書かれているので、自分にあったプランがどれなのかがわかりやすい。
 
 これは結構良い特徴だと思う。
 
 ### Nintendo Switch Online
 
-![nintendo_switch_online](research-prices-design/nintendo_switch_online.png)
+![nintendo_switch_online](nintendo_switch_online.png)
 
 #### プラン数
 
-4
+4種。
 
 #### プラン命名
 
-利用者型（個人プラン、ファミリープラン）
+利用者型（個人プラン、ファミリープラン）。
 
 #### 無料プランとの比較の有無
 
-無し（無料プランが存在しない）
+無し（無料プランが存在しない。）
 
 #### デザイン分類
 
-ブロック型
+ブロック型。
 
 #### デザインから受ける印象
 
@@ -335,23 +343,23 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Origin access
 
-![origin_access](research-prices-design/origin_access.png)
+![origin_access](origin_access.png)
 
 #### プラン数
 
-2
+2種。
 
 #### プラン命名
 
-基本とその他型（BASIC、PREMIR）
+基本とその他型（BASIC、PREMIR）。
 
 #### 無料プランとの比較の有無
 
-無し（無料プランが存在しない）
+無し（無料プランが存在しない。）
 
 #### デザイン分類
 
-テーブル型（でもブロック型ぽくもある、絶妙なバランス）
+テーブル型（でも。ブロック型ぽくもある、絶妙なバランス）
 
 #### デザインから受ける印象
 
@@ -361,23 +369,23 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Qiita: Team
 
-![qiita_team](research-prices-design/qiita_team.png)
+![qiita_team](qiita_team.png)
 
 #### プラン数
 
-5（最多）
+5（最多）種。
 
 #### プラン命名
 
-大きさ型（Micro、Small、Medium、Large、Extra）
+大きさ型（Micro、Small、Medium、Large、Extra）。
 
 #### 無料プランとの比較の有無
 
-無し（無料プランが存在しない）
+無し（無料プランが存在しない。）
 
 #### デザイン分類
 
-ブロック型
+ブロック型。
 
 #### デザインから受ける印象
 
@@ -387,7 +395,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Scrapbox
 
-![scrapbox](research-prices-design/scrapbox.png)
+![scrapbox](scrapbox.png)
 
 ####  プラン数
 
@@ -395,15 +403,15 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 #### プラン命名
 
-使用用途型（BUSINESS、ENTERPRISE、PERSONAL / EDUCATION）
+使用用途型（BUSINESS、ENTERPRISE、PERSONAL / EDUCATION）。
 
 #### 無料プランとの比較の有無
 
-有り（「100ページまで無料」がその役割）
+有り（「100ページまで無料」が。その役割）
 
 #### デザイン分類
 
-ブロック型
+ブロック型。
 
 #### デザインから受ける印象
 
@@ -416,7 +424,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Slack
 
-![slack](research-prices-design/slack.png)
+![slack](slack.png)
 
 ####  プラン数
 
@@ -424,15 +432,15 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 #### プラン命名
 
-上昇型（スタンダード、プラス、Enterprise）
+上昇型（スタンダード、プラス、Enterprise）。
 
 #### 無料プランとの比較の有無
 
-無し
+無し。
 
 #### デザイン分類
 
-ブロック型
+ブロック型。
 
 #### デザインから受ける印象
 
@@ -444,47 +452,47 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 シークレットブラウジングでは表示が変わった。
 
-![slack-no-auth](research-prices-design/slack-no-auth.png)
+![slack-no-auth](slack-no-auth.png)
 
 #### プラン数
 
-4
+4種。
 
 #### プラン命名
 
-上昇型（フリー、スタンダード、プラス、Enterprise）
+上昇型（フリー、スタンダード、プラス、Enterprise）。
 
 #### 無料プランとの比較の有無
 
-有り
+有り。
 
 #### デザイン分類
 
-ブロック型
+ブロック型。
 
 #### デザインから受ける印象
 
-ログイン中途は違い、「〜〜のすべての機能に以下をプラス」という形で機能比較ができるようになっている。
+ログイン中途は違い、「〜のすべての機能に以下をプラス」という形で機能比較ができるようになっている。
 
 ### todoist
 
-![todoist](research-prices-design/todoist.png)
+![todoist](todoist.png)
 
 #### プラン数
 
-3
+3種。
 
 #### プラン命名
 
-上昇型？（無料、プレミアム、ビジネス）
+上昇型？（無料、プレミアム、ビジネス）。
 
 #### 無料プランとの比較の有無
 
-有り
+有り。
 
 #### デザイン分類
 
-ブロック型
+ブロック型。
 
 #### デザインから受ける印象
 
@@ -496,23 +504,23 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### WABTEDLY Admin
 
-![wantedly](research-prices-design/wantedly.png)
+![wantedly](wantedly.png)
 
 #### プラン数
 
-4
+4種。
 
 #### プラン命名
 
-上昇型（トライアル、ライト、ベーシック、プレミアム）
+上昇型（トライアル、ライト、ベーシック、プレミアム）。
 
 #### 無料プランとの比較の有無
 
-有り
+有り。
 
 #### デザイン分類
 
-ブロック型+テーブル型
+ブロック型+テーブル型。
 
 #### デザインから受ける印象
 
@@ -525,23 +533,23 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Zeplin
 
-![zeplin](research-prices-design/zeplin.png)
+![zeplin](zeplin.png)
 
 #### プラン数
 
-4
+4種。
 
 #### プラン命名
 
-サービス利用の熟練度型（FREE、STARTER、GROWING BUSINESS、ORGANIZATION）
+サービス利用の熟練度型（FREE、STARTER、GROWING BUSINESS、ORGANIZATION）。
 
 #### 無料プランとの比較の有無
 
-有り
+有り。
 
 #### デザイン分類
 
-ブロック型？
+ブロック型？。
 
 #### デザインから受ける印象
 
