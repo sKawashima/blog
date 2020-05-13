@@ -110,13 +110,3 @@ jobs:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
       with:
         args: 'デプロイしたよ。お疲れ、skawashima。'
-    - name: Slack Notification
-      uses: homoluctus/slatify@master
-      if: always()
-      with:
-        type: ${{ job.status }}
-        job_name: '*Deploy*'
-        mention: 'here'
-        mention_if: 'failure'
-        channel: '#blog'
-        url: ${{ secrets.SLACK_WEBHOOK }}
