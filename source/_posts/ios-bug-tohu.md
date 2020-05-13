@@ -1,5 +1,5 @@
 ---
-title: iOS端末にのみ発生した豆腐（文字化け文字）とそれの対処
+title: font-familyが-apple-systemに指定されている状態でtext-align:justify;をかけるとiOS端末にて豆腐（文字化け文字）が出現する
 tags:
   - Tohu
   - Web Frontend

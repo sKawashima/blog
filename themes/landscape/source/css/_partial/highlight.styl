@@ -25,13 +25,13 @@ $code-block
 
 $line-numbers
   color: #666
-  font-size: 0.85em
+  font-size: 12px
 
 .article-entry
   pre, code
     font-family: font-mono
   code
-    background: color-background
+    background: color-widget-background
     text-shadow: 0 1px #fff
     padding: 0 0.3em
   pre
@@ -41,6 +41,9 @@ $line-numbers
       text-shadow: none
       padding: 0
   .highlight
+    margin 1em 0
+    font-size 14px
+    line-height 1.5em
     @extend $code-block
     pre
       border: none
@@ -54,7 +57,7 @@ $line-numbers
       padding: 0
     figcaption
       clearfix()
-      font-size: 0.85em
+      font-size: 12px
       color: highlight-comment
       line-height: 1em
       margin-bottom: 1em
@@ -96,7 +99,7 @@ $line-numbers
       .gist-meta
         background: highlight-background
         color: highlight-comment
-        font: 0.85em font-sans
+        font: 12px font-sans
         text-shadow: 0 0
         padding: 0
         margin-top: 1em

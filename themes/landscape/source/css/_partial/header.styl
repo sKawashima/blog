@@ -12,6 +12,8 @@
 #header-outer
   height: 100%
   position: relative
+  display flex
+  justify-content: center
 
 #header-inner
   position: relative
@@ -32,7 +34,6 @@
   height: logo-size
   position: absolute
   top: 45%
-  left: 0
   margin-top: logo-size * -0.5
 
 $logo-text
@@ -85,7 +86,7 @@ $nav-link
 
 .main-nav-link
   @extend $nav-link
-  font-weight: 300
+  font-weight: 400
   letter-spacing: 1px
   @media mq-mobile
     display: none

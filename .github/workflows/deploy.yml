@@ -19,9 +19,8 @@ jobs:
       uses: Ilshidur/action-slack@master
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: 'Masterへのマージを確認。\n{{GITHUB_SHA}} のデプロイを開始するよ。'
       with:
-        args: 'Lint test.'
+        args: ${{github.sha}}${{' のデプロイを開始するよ。'}}
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
@@ -109,9 +108,8 @@ jobs:
       uses: Ilshidur/action-slack@master
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: 'デプロイしたよ。お疲れ、skawashima。'
       with:
-        args: 'deploy'
+        args: 'デプロイしたよ。お疲れ、skawashima。'
     - name: Slack Notification
       uses: homoluctus/slatify@master
       if: always()

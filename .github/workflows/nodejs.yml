@@ -1,9 +1,6 @@
 name: Node CI
 
-on:
-  push:
-    branches-ignore:
-    - master
+on: [push]
 
 jobs:
   generate-test:
@@ -34,9 +31,8 @@ jobs:
       uses: Ilshidur/action-slack@master
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: 'Generate Test が終わったよ。' # Optional.
       with:
-        args: 'Generate test.'
+        args: 'Generate Test が終わったよ。'
     - name: Slack Notification
       uses: homoluctus/slatify@master
       if: always()
@@ -72,9 +68,8 @@ jobs:
       uses: Ilshidur/action-slack@master
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_OVERRIDE_MESSAGE: 'Lint Test が終わったよ。' # Optional.
       with:
-        args: 'Lint test.'
+        args: 'Lint Test が終わったよ。'
     - name: Slack Notification
       uses: homoluctus/slatify@master
       if: always()
