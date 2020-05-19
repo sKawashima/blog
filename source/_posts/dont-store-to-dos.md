@@ -1,5 +1,5 @@
 ---
-title: ToDo管理するならいつかやることを貯めてはならない
+title: ToDo管理するならToDoリストにいつかやることを貯めてはならない
 tags:
   - ToDo
   - Task Management
