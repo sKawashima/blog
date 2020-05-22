@@ -9,6 +9,4 @@ assignees: 'sKawashima'
 
 # 本体改善
 
-## やったこと
-
-- [ ]
+## 問題点
