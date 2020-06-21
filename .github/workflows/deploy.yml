@@ -34,7 +34,7 @@ jobs:
         CI: true
     - name: Slack Notification
       uses: homoluctus/slatify@master
-      if: failure()
+      if: ${{ failure() }}
       with:
         type: ${{ job.status }}
         job_name: '*Generate Test*'
@@ -65,7 +65,7 @@ jobs:
         CI: true
     - name: Slack Notification
       uses: homoluctus/slatify@master
-      if: failure()
+      if: ${{ failure() }}
       with:
         type: ${{ job.status }}
         job_name: '*Lint Test*'
