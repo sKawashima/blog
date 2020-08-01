@@ -48,7 +48,7 @@ category: Design
 
 ### Apple Music
 
-![apple_music](apple_music.png)
+<img alt="apple_music" src="apple_music.png" />
 
 #### プラン数
 
@@ -75,7 +75,7 @@ category: Design
 
 ### Asana
 
-![asana](asana.png)
+<img alt="asana" src="asana.png" />
 
 #### プラン数
 
@@ -102,7 +102,7 @@ category: Design
 
 ### Cacoo
 
-![cacoo](cacoo.png)
+<img alt="cacoo" src="cacoo.png" />
 
 #### プラン数
 
@@ -132,7 +132,7 @@ category: Design
 
 ### Dribbble
 
-![dribbble](dribbble.png)
+<img alt="dribbble" src="dribbble.png" />
 
 #### プラン数
 
@@ -157,7 +157,7 @@ category: Design
 
 ### Dyton Technology +
 
-![dyson_technology](dyson_technology.png)
+<img alt="dyson_technology" src="dyson_technology.png" />
 
 #### プラン数
 
@@ -183,7 +183,7 @@ category: Design
 
 ### Figma
 
-![figma](figma.png)
+<img alt="figma" src="figma.png" />
 
 #### プラン数
 
@@ -210,7 +210,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Google Play Music
 
-![google_play_music](google_play_music.png)
+<img alt="google_play_music" src="google_play_music.png" />
 
 #### プラン数
 
@@ -236,7 +236,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### GREENa
 
-![greena](greena.png)
+<img alt="greena" src="greena.png" />
 
 #### プラン数
 
@@ -264,7 +264,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### 新しいKyash Card
 
-![kyash](kyash.png)
+<img alt="kyash" src="kyash.png" />
 
 #### プラン数
 
@@ -290,7 +290,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### LINE WORKS
 
-![line_works](line_works.png)
+<img alt="line_works" src="line_works.png" />
 
 #### プラン数
 
@@ -316,7 +316,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Nintendo Switch Online
 
-![nintendo_switch_online](nintendo_switch_online.png)
+<img alt="nintendo_switch_online" src="nintendo_switch_online.png" />
 
 #### プラン数
 
@@ -341,7 +341,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Origin access
 
-![origin_access](origin_access.png)
+<img alt="origin_access" src="origin_access.png" />
 
 #### プラン数
 
@@ -367,7 +367,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Qiita: Team
 
-![qiita_team](qiita_team.png)
+<img alt="qiita_team" src="qiita_team.png" />
 
 #### プラン数
 
@@ -393,7 +393,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Scrapbox
 
-![scrapbox](scrapbox.png)
+<img alt="scrapbox" src="scrapbox.png" />
 
 ####  プラン数
 
@@ -422,7 +422,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Slack
 
-![slack](slack.png)
+<img alt="slack" src="slack.png" />
 
 ####  プラン数
 
@@ -450,7 +450,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 シークレットブラウジングでは表示が変わった。
 
-![slack-no-auth](slack-no-auth.png)
+<img alt="slack-no-auth" src="slack-no-auth.png" />
 
 #### プラン数
 
@@ -474,7 +474,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### todoist
 
-![todoist](todoist.png)
+<img alt="todoist" src="todoist.png" />
 
 #### プラン数
 
@@ -502,7 +502,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### WABTEDLY Admin
 
-![wantedly](wantedly.png)
+<img alt="wantedly" src="wantedly.png" />
 
 #### プラン数
 
@@ -531,7 +531,7 @@ Organizationでのみ、Everything in Professional, plus... というように�
 
 ### Zeplin
 
-![zeplin](zeplin.png)
+<img alt="zeplin" src="zeplin.png" />
 
 #### プラン数
 
