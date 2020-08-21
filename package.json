@@ -9,7 +9,7 @@
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
     "ftp-deploy": "^2.3.7",
-    "hexo": "^4.2.1",
+    "hexo": "^5.0.2",
     "hexo-clean-css": "^1.0.0",
     "hexo-filter-flowchart": "^1.0.4",
     "hexo-fontawesome": "^2.2.1",
