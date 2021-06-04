@@ -10,7 +10,7 @@
     "dotenv": "^8.2.0",
     "ftp-deploy": "^2.4.1",
     "hexo": "^5.4.0",
-    "hexo-clean-css": "^1.0.0",
+    "hexo-clean-css": "^2.0.0",
     "hexo-filter-flowchart": "^1.0.4",
     "hexo-fontawesome": "^2.2.1",
     "hexo-generator-archive": "^1.0.0",
