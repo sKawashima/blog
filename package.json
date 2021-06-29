@@ -31,7 +31,7 @@
     "hexo-toc": "^1.1.0",
     "hexo-uglify": "^2.0.0",
     "textlint": "^12.0.0",
-    "textlint-rule-preset-ja-technical-writing": "^4.0.1"
+    "textlint-rule-preset-ja-technical-writing": "^6.0.0"
   },
   "scripts": {
     "dev": "hexo clean;hexo server --debug",
