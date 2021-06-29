@@ -6,11 +6,11 @@
     "version": "5.1.1"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.6",
-    "dotenv": "^8.2.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
     "ftp-deploy": "^2.4.1",
     "hexo": "^5.4.0",
-    "hexo-clean-css": "^1.0.0",
+    "hexo-clean-css": "^2.0.0",
     "hexo-filter-flowchart": "^1.0.4",
     "hexo-fontawesome": "^2.2.1",
     "hexo-generator-archive": "^1.0.0",
@@ -30,7 +30,7 @@
     "hexo-tag-twitter": "^1.0.2",
     "hexo-toc": "^1.1.0",
     "hexo-uglify": "^2.0.0",
-    "textlint": "^11.9.0",
+    "textlint": "^12.0.0",
     "textlint-rule-preset-ja-technical-writing": "^6.0.0"
   },
   "scripts": {
