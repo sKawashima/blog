@@ -51,6 +51,6 @@
     "textlint-rule-preset-ja-technical-writing": "^7.0.0"
   },
   "lint-staged": {
-    "*.{md}": "textlint --fix"
+    "*.md": "textlint --fix"
   }
 }
