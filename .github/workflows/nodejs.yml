@@ -29,22 +29,6 @@ jobs:
         npm run generate
       env:
         CI: true
-    - name: Slack Comment
-      uses: Ilshidur/action-slack@master
-      env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-      with:
-        args: 'Generate Test が終わったよ。'
-    - name: Slack Notification
-      uses: homoluctus/slatify@master
-      if: always()
-      with:
-        type: ${{ job.status }}
-        job_name: '*Generate Test*'
-        mention: 'here'
-        mention_if: 'failure'
-        channel: '#blog'
-        url: ${{ secrets.SLACK_WEBHOOK }}
 
   lint-test:
 
