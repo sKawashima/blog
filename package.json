@@ -12,7 +12,7 @@
     "hexo": "^5.4.0",
     "hexo-clean-css": "^2.0.0",
     "hexo-filter-flowchart": "^1.0.4",
-    "hexo-fontawesome": "^2.2.1",
+    "hexo-fontawesome": "^2.3.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
