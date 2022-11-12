@@ -45,7 +45,7 @@
   "devDependencies": {
     "barba.js": "^1.0.0",
     "broken-link-checker": "^0.7.8",
-    "husky": "^8.0.1",
+    "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
     "textlint": "^12.2.3",
     "textlint-rule-preset-ja-technical-writing": "^7.0.0"
