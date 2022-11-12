@@ -16,11 +16,8 @@
         "max": 8
       },
       "ja-no-successive-word": {
-        allowOnomatopee: true,
-
-        // 許可する単語
-        // RegExp-like Stringを使用可能
-        allow: ["…"]
+        "allowOnomatopee": true,
+        "allow": ["…", "○"]
       }
     }
   }
