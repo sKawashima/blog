@@ -5,7 +5,9 @@ on:
     branches: [master]
 
 jobs:
-  generate-test:
+  generate-pull-request-description:
+
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
