@@ -46,7 +46,7 @@
     "barba.js": "^1.0.0",
     "broken-link-checker": "^0.7.8",
     "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.2.4",
     "textlint": "^14.0.4",
     "textlint-rule-preset-ja-technical-writing": "^9.0.0"
   },
