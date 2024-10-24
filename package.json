@@ -47,7 +47,7 @@
     "broken-link-checker": "^0.7.8",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
-    "textlint": "^14.2.1",
+    "textlint": "^14.3.0",
     "textlint-rule-preset-ja-technical-writing": "^9.0.0"
   },
   "lint-staged": {
