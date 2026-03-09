@@ -101,7 +101,7 @@ Googleが[マネージャー向けに提供しているAIプロンプト例](htt
 コード行数、1日あたりのコミット数、こなしたチケット数。
 これで個人をランク付けすれば、チームはたちまち競合関係になる。
 [Project Aristotle](https://rework.withgoogle.com/intl/en/guides/managers-research-behind-great-managers)では、チームメンバーの個人パフォーマンスとチームの効果性は有意に関連しないことが示されている。
-チームとして「どのように協力するか」が「誰がいるか」より重要なんだそうだ。
+チームとして「どのように協力するか」が「誰がいるか」より重要と述べられている。
 
 代わりに使いたいのが、DORA（DevOps Research and Assessment）が特定した[Four Key Metrics](https://www.usehaystack.io/blog/managing-developers-measure-dont-micromanage)だ。
 デプロイ頻度・変更リードタイム・変更失敗率・サービス復旧時間の4つで、これらはチーム全体のデリバリーパフォーマンスを測る指標なので個人攻撃のツールになりにくい。
