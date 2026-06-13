@@ -50,7 +50,7 @@ brew install act
 
 amd64 前提の action でコケることがあるので、`~/.actrc` に書いておくと安定する。
 
-```
+```text
 --container-architecture linux/amd64
 -P ubuntu-latest=catthehacker/ubuntu:act-latest
 ```
