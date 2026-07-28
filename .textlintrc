@@ -6,6 +6,7 @@
         "allowEmojiAtEnd": true
       },
       "no-doubled-joshi": false,
+      "no-mix-dearu-desumasu": false,
       "no-exclamation-question-mark": false,
       "ja-no-weak-phrase": false,
       "sentence-length": false,
