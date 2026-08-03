@@ -1,5 +1,8 @@
 # skawashima.com/blog
 
+> [!IMPORTANT]
+> **このリポジトリはアーカイブされました。** ブログは [portfolio260728](https://github.com/sKawashima/portfolio260728) に統合されています(全記事・URL は移行済み)。現行サイト: https://skawashima.com/blog/
+
 ![last deploy](https://img.shields.io/github/last-commit/sKawashima/blog/master.svg?label=last%20deploy&style=flat-square)
 ![lgtm alart](https://img.shields.io/lgtm/alerts/github/sKawashima/blog?style=flat-square)
 [![Node CI Status](https://github.com/sKawashima/blog/workflows/Node%20CI/badge.svg)](https://github.com/sKawashima/blog/actions?workflow=Node+CI)
@@ -45,3 +48,4 @@ hexo generate
 ```
 
 Generates static files.
+
